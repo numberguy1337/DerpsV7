@@ -1,0 +1,26 @@
+type: GenericCrafter
+name: Titanium Forge
+description: Combines Titanium to produce Thorium.
+size: 2
+hasPower: true
+hasItems: true
+craftTime: 40
+updateEffect: smeltsmoke
+itemCapacity: 10
+consumes: {
+  power: 0.5
+  items: {
+    items: [
+      titanium/4
+    ]
+  }
+}
+requirements: [
+    titanium/700
+]
+category: crafting
+research: forge-lead
+ambientSound: respawning
+ambientSoundVolume: 0.4
+"buildVisibility": "campaignOnly"
+outputItem: thorium/2

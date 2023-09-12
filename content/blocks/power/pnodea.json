@@ -1,0 +1,30 @@
+{
+  "maxNodes": "8",
+  "laserRange": "8",
+  "type": "PowerNode",
+  "name": "Enhanced Power Node",
+  "description": "Enhanced node, less connections but a little more range for your node.",
+  "health": 70,
+  "size": 1,
+
+
+  "requirements": [
+    "copper/5",
+    "lead/10"
+  ],
+
+  "category": "power",
+  "research": {
+    "parent": "power-node",
+    "requirements": [
+      {
+        "item": "copper",
+        "amount": 350
+      },
+      {
+        "item": "lead",
+        "amount": 700
+      }
+    ]
+  }
+}

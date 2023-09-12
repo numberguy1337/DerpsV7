@@ -1,0 +1,79 @@
+{
+	"type": "GenericCrafter",
+	"localizedName": "Sploshy Coolant Synthesizer",
+	"description": "Using alien technology and cryofluid.. It's seemed to have attached its self to the cooling fluid, but why does slosh like that..?",
+	"size": 2,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 120,
+	"health": 160,
+	"rotate": false,
+	"solid": true,
+	"outputsLiquid": true,
+	"drawer": [
+		{
+			"type": "DrawDefault"
+		},
+		{
+			"type": "DrawRegion",
+			"suffix": "-bottom"
+		},
+/*		{
+			"type": "DrawRegion",
+			"suffix": "-liquid"
+		},*/
+		{
+			"type": "DrawLiquidTile",
+			"drawLiquid": "water"
+		},
+		{
+			"type": "DrawLiquidTile",
+			"drawLiquid": "cryofluid"
+		},
+		{
+			"type": "DrawLiquidTile",
+			"drawLiquid": "ata-coolant"
+		},
+		{
+			"type": "DrawRegion",
+			"suffix": "-factory"
+		},
+
+		{
+			"type": "DrawRegion",
+			"suffix": "-top"
+		}
+		//[ "DrawLiquidTile","water" ],
+		//["DrawLiquidTile","cryofluid"]
+	],//"drawMixer",
+	"liquidCapacity": "60",
+	"consumes": {
+		"power": 1.5,
+		"items": {
+			"items": [
+				{
+					"item": "alientech",
+					"amount": 1
+				}
+			]
+		},
+		"liquid": {
+			"liquid": "cryofluid",
+			"amount": 0.2
+		}
+	},
+	"requirements": [
+		{
+			"item": "alientech",
+			"amount": 45
+		},
+		{
+			"item": "titanium",
+			"amount": 90
+		}
+	],
+	"outputLiquid": "ata-coolant/1",
+	"category": "crafting",
+	"research": "alientech-forge"
+
+}

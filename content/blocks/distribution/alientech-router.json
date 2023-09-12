@@ -1,0 +1,14 @@
+{
+	"localizedName": "Alien-tech Router",
+	"type": "Router",
+	"description": "Weirdly efficient router.",
+	"size": 1,
+	"speed": 1,
+	"health": 100,
+	"buildCostMultiplier": 1.0,
+	"category": "distribution",
+	"research": "alientech-forge",
+	"requirements": [
+		{ "item": "alientech", "amount": 1 }
+	]
+}

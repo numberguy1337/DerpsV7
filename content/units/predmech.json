@@ -1,0 +1,52 @@
+{
+  "type": "mech",
+  "name": "Sniper",
+  "health": 250,
+  "speed": 0.28,
+  "flying": false,
+  //"commandLimit": 2,
+  "baseRotateSpeed": 2.15,
+  "range": 400,
+
+  "weapons": [
+    {
+      "name": "sniper-equip",
+      "reload": 90,
+      "shoot": {
+        "firstShotDelay": 0,
+        "shots": 1,
+        "shotDelay": 0
+      },
+      "alternate": false,
+      "recoil": 6.25,
+      "x": -0,
+      "y": 3.0,
+      "bullet": {
+        "drag": -0.002,
+        "keepVelocity": false,
+        "splashDamageRadius": 25,
+        "splashDamage": 20,
+        "lifetime": 40,
+        "trailColor": "Pal.unitBack",
+        "backColor": "Pal.unitBack",
+        "frontColor": "Pal.unitFront",
+        "damage": 95,
+        "speed": 6,
+        "width": 2
+      }
+    }
+  ],
+  "research": {
+    "parent": "derpmech",
+    "requirements": [
+      {
+        "item": "silicon",
+        "amount": 2500
+      },
+      {
+        "item": "graphite",
+        "amount": 3000
+      }
+    ]
+  }
+}

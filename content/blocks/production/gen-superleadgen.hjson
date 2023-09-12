@@ -1,0 +1,27 @@
+type: GenericCrafter
+name: "Super Lead Generator"
+description: "Slap that -- button for some lead production. If you're using this.. I don't blame you."
+size: 3
+hasItems: true
+hasLiquids: false
+craftTime: 90.0
+updateEffect: smeltsmoke
+consumes: {
+    power: 0.75
+    }
+requirements: [
+    copper/350
+    lead/1750
+]
+category: production
+research: {
+    parent: gen-leadgen
+    requirements:
+    [
+        {item: copper, amount: 28400},
+        {item: lead, amount: 124250}
+    ]
+}
+ambientSound: respawning
+ambientSoundVolume: 0.4
+outputItem: lead/2

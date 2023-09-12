@@ -1,0 +1,62 @@
+{
+  "type": "ItemTurret",
+  "name": "Weird Duo",
+  "description": "Duo made of alien tech, increased defensive capabilities.",
+  "health": 400,
+  "size": 1,
+  "reload": 10,
+  "range": 180,
+  "inaccuracy": 3,
+  "maxAmmo": 30,
+  "shootSound": "pew",
+  "rotateSpeed": 7,
+
+  "ammoTypes": {
+    "graphite": {
+      "damage": "42",
+      "speed": "4",
+      "width": "9",
+      "height": "13",
+      "knockback": "1",
+      "reloadMultiplier": "0.85",
+      "ammoMultiplier": "4",
+      "lifetime": "70"
+    },
+    "pyratite": {
+      "damage": "48",
+      "speed": "4",
+      "width": "10",
+      "height": "14",
+      "lifetime": "40f",
+      "shootEffect": "shootBig",
+      "smokeEffect": "shootBigSmoke",
+      "ammoMultiplier": "4",
+      "status": "burning",
+      "makeFire": "true"
+    },
+    "silicon": {
+      "damage": "42",
+      "speed": "3.25",
+      "width": "7",
+      "height": "9",
+      "reloadMultiplier": "1.25",
+      "homingPower": "0.1f",
+      "homingRange": "20",
+      "ammoMultiplier": "5",
+      "lifetime": "60"
+    },
+    "alientech": {
+      "speed": "4f",
+      "lifetime": "70",
+      "damage": "60",
+      "homingPower": "30",
+      "homingRange": "20"
+    }
+  },
+  "requirements": [
+    "alientech/25"
+  ],
+
+  "category": "turret",
+  "research": "alientech-forge"
+}

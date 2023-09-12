@@ -1,0 +1,34 @@
+{
+  "type": "Drill",
+  "name": "Derps Drill",
+  "description": "A very strange drill.",
+  "tier": 4,
+  "drillTime": 212,
+  "size": 3,
+  "drawMineItem": true,
+  "hasPower": true,
+  "updateEffect": "pulverizeMedium",
+  "drillEffect": "mineBig",
+  "health": 200,
+  "itemCapacity": 10,
+
+  "consumes": {
+    "power": 3,
+    "liquid": {
+      "liquid": "water",
+      "amount": 0.06,
+      "booster": true,
+      "optional": true
+    }
+  },
+
+  "requirements": [
+    "copper/100",
+    "graphite/80",
+    "titanium/75",
+    "silicon/80"
+  ],
+
+  "category": "production",
+  "research": "laser-drill"
+}

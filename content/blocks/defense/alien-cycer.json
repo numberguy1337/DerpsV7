@@ -1,0 +1,62 @@
+{
+  // Cycer in V6 does not require script!
+  "type": "LaserTurret",
+  "name": "Cycer",
+  "description": "You were able to combine the power of the lancer with looks of the cyclone. Requires liquid to attack. Most modifications improved this design over the lancer.",
+  "health": 1400,
+  "size": 3,
+  "range": 200,
+  "targetAir": true,
+  "hasPower": true,
+  //"cooldown": 0.05,
+  "heatColor": "FF0000",
+  "shootSound": "laser",
+  "shootDuration": 3, //does something
+  "reload": 60, //cooldown inbetween attacks
+  "recoil": 4,
+  "firingMoveFract": 0.3,
+  "shootCone": 12,
+  "canOverdrive": true,
+  //  "coolantMultiplier": 2.2,
+  "liquidCapacity": 120,
+  "shoot": {
+    "firstShotDelay": 3
+  },
+  "coolantMultiplier": 0.5,
+  //"optionalBoostIntensity": 0.5,
+  "consumes": {
+    "power": 3,
+    "coolant": {
+      "amount": 0.5,
+      "maxTemp": 0.4,
+      "optional": false,
+      "booster": false
+    }
+  },
+  "shootEffect": "lancerLaserShoot",
+  "smokeEffect": "none",
+  "shootType": {
+    "type": "LaserBulletType",
+    "colors": [ "fa20ff55", "faffbbaa", "ffa6f6", "ffffff" ],
+    "chargeEffect": [ "lancerLaserCharge", "lancerLaserChargeBegin" ],
+    //"tscales": [ 1, 1, 1, 1 ],// unused in LaserBulletType
+    //"strokes": [ 6, 4.5, 3, 0.9 ],// unused in LaserBulletType
+    //"lenscales": [ 1, 1.16, 1.27, 1.39 ],// unused in LaserBulletType
+    "pierce": true,
+    "damage": 200, //bing bong F your life
+    "hitSize": 12, //
+    "width": 32, // width of the beam
+    "length": 210, // length of beam
+    "drawSize": 15, // ? lancer sits on 400
+    "hitEffect": "hitLancer",
+    "lifetime": 17, //beam appearance time'd life
+    "collidesAir": true, //beam collide smack air
+    "ammoMultiplier": 1
+  },
+  "requirements": [
+    "alientech/400"
+  ],
+
+  "category": "turret",
+  "research": "alien-duo"
+}

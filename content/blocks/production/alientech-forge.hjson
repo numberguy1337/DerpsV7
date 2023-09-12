@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: Alien Tech Forge
+description: "Combining certain resources and learning from certain ways, you are able to create this 'new tech', wonder what's instore for usage."
+size: 2
+hasItems: true
+craftTime: 88
+updateEffect: smeltsmoke
+itemCapacity: 10
+consumes: {
+    power: 3
+     items: {
+         items: [
+            plastanium/5
+            surge-alloy/5
+    ]
+  }
+}
+requirements: [
+    plastanium/200
+    surge-alloy/200
+    titanium/600
+    graphite/800
+]
+category: crafting
+research: alloy-smelter
+ambientSound: respawning
+ambientSoundVolume: 0.4
+outputItem: alientech/1

@@ -1,0 +1,40 @@
+{
+  "type": "mech",
+  "name": "Derp's Mech",
+  "health": "400",
+  "speed": "0.5125",
+  "flying": false,
+  "range": 190,
+  "armor": 1,
+  //"commandLimit": 3,
+  "weapons": [
+    {
+      "name": "derpmech-equip",
+      "x": 2.70,
+      "y": 0.7,
+      "shootY": 5.6,
+      "reload": 15,
+      "alternate": true,
+      "bullet": {
+        "lifetime": 60,
+        "damage": 18,
+        "speed": 2.65,
+        "homingPower": 0.15,
+        "homingRange": 50
+      }
+    }
+  ],
+  "research": {
+    "parent": "thicctitan",
+    "requirements": [
+      {
+        "item": "silicon",
+        "amount": 1200
+      },
+      {
+        "item": "graphite",
+        "amount": 1200
+      }
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+
+name: Iron
+description: Iron bar.
+hardness: 1
+cost: 1
+color: bb2d11
+research: {
+	parent: thorium
+	}

@@ -1,0 +1,16 @@
+{
+  "type": "Wall",
+  "name": "Large Alien Wall",
+  "description": "A large wall made from the alien tech.  -",
+  "health": 4000,
+  "size": 2,
+  "lightningChance": 0.118,
+  "lightningDamage": 25,
+  "lightningLength": 18,
+  "lightningColor": 800080,
+  "requirements": [
+    "alientech/24"
+  ],
+  "category": "defense",
+  "research": "alientech-wall"
+}

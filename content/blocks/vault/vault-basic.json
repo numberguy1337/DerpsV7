@@ -1,0 +1,17 @@
+{
+  "name": "Compact Container",
+  "description": "Storage worth your materials and time.",
+  "type": "StorageBlock",
+  "itemCapacity": 5000,
+  "hasItems": true,
+  "health": 500,
+  "consumesPower": false,
+  "size": 2,
+  "requirements": [
+    "titanium/1000",
+    "thorium/500",
+    "plastanium/500"
+  ],
+  "category": "effect",
+  "research": "vault"
+}

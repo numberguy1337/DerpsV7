@@ -1,0 +1,26 @@
+{
+  "type": "Drill",
+  "name": "Iron drill",
+  "description": "Iron drill",
+  "health": 350,
+  "size": 2,
+  "hasLiquids": true,
+  "liquidCapacity": 5,
+  "category": "production",
+  "research": "forge-iron",
+  "tier": 5,
+
+  "drillTime": 270,
+  "requirements": [
+    "iron/20"
+  ],
+  "consumes": {
+    "liquid": {
+      "liquid": "water",
+      "booster": true,
+      "amount": 0.1,
+      "optional": true
+    }
+  }
+}
+

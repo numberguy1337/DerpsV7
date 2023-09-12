@@ -1,0 +1,19 @@
+{
+  "type": "Battery",
+  "name": "Superb Large Battery",
+  "description": "Using Alien tech once again, you have improved the technology! Hold more power!",
+  "health": 500,
+  "size": 3,
+  "consumes": {
+    "powerBuffered": "75000f"
+  },
+
+  "requirements": [
+    "titanium/200",
+    "silicon/300",
+    "alientech/15"
+  ],
+
+  "category": "power",
+  "research": "battery-large"
+}

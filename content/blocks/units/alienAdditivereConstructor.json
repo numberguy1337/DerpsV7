@@ -1,0 +1,32 @@
+{
+"type": "Reconstructor",
+"name": "Alien Additiverse Constructor",
+"description": "Revitalization from a small ship to a different one.",
+"health": 1000,
+"size": 3,
+"itemCapacity": 400,
+"constructTime": 800,
+
+  "requirements": [
+    "alientech/150"
+  ],
+
+"upgrades": [
+  ["alienghostshipb","alienrevenant"],
+  ["alienshipminer","alienbuilder"]
+  ],
+
+  "consumes": {
+    "power": 3,
+    "items": {
+      "items": [
+        "alientech/200",
+        "plastanium/50",
+        "surge-alloy/50"
+      ]
+    }
+  },
+
+"category": "units",
+"research": "alienairFactory"
+}

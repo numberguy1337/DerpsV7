@@ -1,0 +1,12 @@
+type:Wall
+name: Iron Wall
+description: Basic Iron wall - sprite from RealLifeMindustry Mod
+requirements: [
+     iron/6
+]
+health: 1100
+size:1
+category:defense
+research: forge-iron
+
+

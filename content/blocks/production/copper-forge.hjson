@@ -1,0 +1,26 @@
+type: GenericCrafter
+name: Copper Forge
+description: Combines Copper to produce Lead.
+size: 2
+hasPower: true
+hasItems: true
+craftTime: 40
+updateEffect: smeltsmoke
+itemCapacity: 12
+consumes: {
+  power: 0.2
+  items: {
+    items: [
+      copper/4
+    ]
+  }
+}
+requirements: [
+    copper/550
+]
+category: crafting
+research: graphite-press
+ambientSound: respawning
+ambientSoundVolume: 0.4
+outputItem: lead/2
+"buildVisibility": "campaignOnly"

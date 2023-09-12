@@ -1,0 +1,38 @@
+{
+  "type": "flying",
+  "name": "Copper Drone",
+  "description": "Drone made of copper, ready to shoot it's target.",
+  "speed": 2.88,
+  "accel": 0.07,
+  "drag": 0.05,
+  "range": 220,
+  "flying": true,
+  "health": 60,
+  "engineOffset": 5.5,
+  //"commandLimit": 3,
+  "baseRotateSpeed": 0.98,
+  "circleTarget": true,
+  "weapons": [
+    {
+      "name": "tiny-equip",
+      "reload": 16,
+      "alternate": true,
+      "bullet": {
+        "lifetime": 50,
+        "damage": 3,
+        "speed": 5.25,
+        "shootEffect": "shootSmall",
+        "smokeEffect": "shootSmallSmoke"
+      }
+    }
+  ],
+  "research": {
+    "parent": "derpflare",
+    "requirements": [
+      {
+        "item": "copper",
+        "amount": 4000
+      }
+    ]
+  }
+}

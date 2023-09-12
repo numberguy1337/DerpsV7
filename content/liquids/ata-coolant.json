@@ -1,0 +1,9 @@
+{
+	"name": "Weird Sploshy Coolant",
+	"description": "Using alien technology and cryofluid.. You've seem to make another breakthrough, But why does slosh like that..?",
+	"temperature": 0.06,
+	"heatCapacity": 2.0,
+	"viscosity": 0.8,
+	"effect": "freezing",
+	"color": "7e249a"
+}

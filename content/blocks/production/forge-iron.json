@@ -1,0 +1,45 @@
+{
+	"type": "GenericCrafter",
+	"name": "Iron Forge",
+	"description": "This forge uses hydrogen to craft iron!",
+	"size": 2,
+	"hasPower": "false",
+	"hasItems": "true",
+	"craftTime": "120",
+	"liquidCapacity": 60,
+	"consumes": {
+		"power": 0.5,
+		"liquid": {
+			"liquid": "hydrogen",
+			"amount": 0.25
+		}
+	},
+	"updateEffect": "smeltsmoke",
+	"requirements": [
+		{
+			"item": "titanium",
+			"amount": 300
+		},
+		{
+			"item": "thorium",
+			"amount": 450
+		}
+	],
+	"category": "crafting",
+	"research": {
+		"parent": "hydrogen-distiller",
+		"requirements": [
+			{
+				"item": "thorium",
+				"amount": 42600
+			},
+			{
+				"item": "titanium",
+				"amount": 63900
+			}
+		]
+	},
+	"ambientSound": "respawning",
+	"ambientSoundVolume": 0.4,
+	"outputItem": "iron/1"
+}

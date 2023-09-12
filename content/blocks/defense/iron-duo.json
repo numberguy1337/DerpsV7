@@ -1,0 +1,82 @@
+{
+  "type": "ItemTurret",
+  "name": "Iron Duo",
+  "description": "Duo made of Iron, increased defensive capabilities.",
+  "health": 300,
+  "size": 1,
+  "reload": 14,
+  "range": 160,
+  "inaccuracy": 2,
+  "maxAmmo": 20,
+  "shootSound": "swings",
+  "rotateSpeed": 8,
+
+  "ammoTypes": {
+    "copper": {
+      "damage": 36,
+      "speed": 4,
+      "hitSize": 3,
+      "width": 9,
+      "height": 11,
+      "lifetime": 60,
+      "shootEffect": "shootSmall",
+      "smokeEffect": "shootSmallSmoke",
+      "ammoMultiplier": 2
+    },
+    "graphite": {
+      "damage": 48,
+      "speed": 4,
+      "hitSize": 3,
+      "width": 9,
+      "height": 13,
+      "knockback": 0.5,
+      "reloadMultiplier": 0.7,
+      "ammoMultiplier": 4,
+      "lifetime": 60
+    },
+    "pyratite": {
+      "damage": 56,
+      "speed": 4,
+      "hitSize": 4,
+      "width": 10,
+      "height": 12,
+      "lifetime": 60,
+      "shootEffect": "shootBig",
+      "smokeEffect": "shootBigSmoke",
+      "ammoMultiplier": 4,
+      "status": "burning",
+      "makeFire": true
+    },
+    "silicon": {
+      "damage": 36,
+      "speed": 4,
+      "hitSize": 3,
+      "width": 7,
+      "height": 9,
+      "reloadMultiplier": 1.25,
+      "homingPower": 0.1,
+      "homingRange": 20,
+      "ammoMultiplier": 5,
+      "lifetime": 60
+    },
+    "iron": {
+      "damage": 56,
+      "speed": 4,
+      "hitSize": 3,
+      "width": 9,
+      "height": 13,
+      "knockback": 0.65,
+      "reloadMultiplier": 1,
+      "ammoMultiplier": 4,
+      "lifetime": 58
+    }
+
+  },
+
+  "requirements": [
+    "iron/25"
+  ],
+
+  "category": "turret",
+  "research": "forge-iron"
+}

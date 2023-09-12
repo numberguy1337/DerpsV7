@@ -1,0 +1,30 @@
+{
+  "type": "flying",
+  "name": "Miner",
+  "description": "Need something gathered? Typically slow ship that mines up to Tier 4 Resources.",
+  "defaultCommand": "mine",
+  "flying": true,
+  "drag": 0.041,
+  "speed": 1.5,
+  "accel": 0.12,
+  "health": 160,
+  "armor": 2,
+  "engineSize": 1.6,
+  "engineOffset": 6.0,
+  "range": 42,
+  //"isCounted": false,
+  //"commandLimit": 2,
+  "mineTier": 4,
+  "mineSpeed": 4,
+  "itemCapacity": 40,
+  "buildSpeed": 0.45,
+  "research": {
+    "parent": "alienghostshipb",
+    "requirements": [
+      {
+        "item": "alientech",
+        "amount": 3000
+      }
+    ]
+  }
+}

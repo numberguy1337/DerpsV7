@@ -1,0 +1,8 @@
+{
+  "name": "Derp's Package v7",
+  "displayName": "[orange]Derps [gold]Package[] v7", //what displays in the mod selection menu
+  "author": "numberguy1337",
+  "description": "Derp's Package!  Includes weird variety of turrets,walls,drills,units and the sorts.",
+  "version": "1.0.0",
+  "minGameVersion": "136"
+}

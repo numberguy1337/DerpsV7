@@ -1,0 +1,45 @@
+name: Scout
+description: "The Scout, Alien ships have homing capabilities and slightly more modified functions.  Model by MillionthVector"
+
+flying: true
+drag: 0.05f
+speed: 0.32f
+maxVelocity: 1.22f
+boostSpeed: 0.9f
+range: 110f
+health: 440f
+hitsize: 4f
+mass: 1.30f
+rotatespeed: 0.85f
+shootCone: 37f
+
+drillPower: 3
+mineSpeed: 4.0f
+itemCapacity: 25
+buildPower: 1.35f
+engineSize: 2f
+engineOffset: 6
+weaponOffsetX: 6
+weaponOffsexY: 2
+healBy: 0.09
+weapon: {    
+   name: ""
+   reload: 20
+   rotateWeapon: true
+   shots: 2
+   type: "MissileBulletType"
+    alternate: true
+    length: 1.2
+    inaccuracy: 8f
+    spacing: 3f
+  bullet: {
+    homingPower: 22
+    homingRange: 90
+    lifetime: 85
+    speed: 2.37
+    damage: 24
+    velocityRnd: 0.33f
+    frontColor: 512586
+    backColor: 4b3883
+  }
+}

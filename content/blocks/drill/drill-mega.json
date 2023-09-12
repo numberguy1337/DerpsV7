@@ -1,0 +1,36 @@
+{
+  "type": "Drill",
+  "name": "Mega drill",
+  "description": "Big blast, drill a bigger area and deeper at a faster pace. Uses cryofluid to cooldown the excessive output.",
+  "health": 400,
+  "size": 5,
+  "hasLiquids": true,
+  "liquidCapacity": 24,
+  "tier": 6,
+  "liquidBoostIntensity": 2.35,
+  "drillTime": 200,
+  "updateEffect": "pulverizeRed",
+  "updateEffectChance": 0.03,
+  "drillEffect": "mineHuge",
+  "rotateSpeed": 7,
+  "warmupSpeed": 0.02,
+  "itemCapacity": 60,
+
+  "consumes": {
+    "power": 5,
+    "liquid": {
+      "liquid": "cryofluid",
+      "booster": true,
+      "amount": 0.18,
+      "optional": true
+    }
+  },
+  "requirements": [
+    "copper/300",
+    "silicon/300",
+    "titanium/300",
+    "thorium/600"
+  ],
+  "category": "production",
+  "research": "derps-drill"
+}

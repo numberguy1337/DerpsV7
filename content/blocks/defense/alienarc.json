@@ -1,0 +1,40 @@
+{
+  "type": "PowerTurret",
+  "name": "Shoark",
+  "description": "An Arc, and shoots multiple lightning bolts.",
+  "health": 240,
+  "size": 1,
+  "range": 110,
+  "reload": 30,
+  "shootSound": "spark",
+  "shootCone": 10,
+  "shoot": {
+    "firstShotDelay": 0,
+    "shots": 2,
+    "shotDelay": 0
+  },
+  //"lightning": 2,
+  "shootType": {
+    "type": "LightningBulletType",
+    //"colors": [ "fa20ff55", "faffbbaa", "ffa6f6", "ffffff" ],
+    "lightningLength": 20,
+    "damage": 30,
+    "lightningDamage": 30
+  },
+  "rotateSpeed": 100,
+  "consumes": {
+    "power": 1.0
+  },
+  "targetAir": true,
+  "targetGround": true,
+  "heatColor": "ff0000",
+  "shootEffect": "lightningShoot",
+  "recoil": 1,
+  //"cooldown": 0.02,
+  //"restitution": 0.02,
+  "requirements": [
+    "alientech/80"
+  ],
+  "category": "turret",
+  "research": "alien-duo"
+}

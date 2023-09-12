@@ -1,0 +1,12 @@
+type: Wall
+name: Large Iron Wall
+description: Large Iron wall - sprite from RealLifeMindustry Mod
+requirements: [
+     iron/24
+]
+health: 4400
+size: 2
+category: defense
+research: iron-wall
+
+

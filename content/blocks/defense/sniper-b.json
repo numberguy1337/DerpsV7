@@ -1,0 +1,73 @@
+{
+  "type": "ItemTurret",
+  "name": "Sniper v1.2",
+  "description": "Long ranged turret capable of taking down enemies from a distance.",
+  "health": 880,
+  "size": 2,
+  "range": 310,
+  "rotateSpeed": 15,
+  "targetAir": true,
+  "hasPower": false,
+  "recoil": 5,
+  "reload": 140,
+  "shootSound": "shootBig",
+  "ammoTypes": {
+    "copper": {
+      "speed": 7,
+      "lifetime": 50,
+      "shootEffect": "shootSmall",
+      "smokeEffect": "shootSmallSmoke",
+      "damage": 18,
+      "hitSize": 3,
+      "width": 12,
+      "height": 18
+    },
+    "graphite": {
+      "speed": 7,
+      "lifetime": 50,
+      "damage": 20,
+      "hitSize": 3,
+      "width": 12,
+      "height": 18,
+      "splashDamageRadius": 20,
+      "splashDamage": 33,
+      "knockback": 0.8,
+      "hitEffect": "flakExplosion"
+    },
+    "silicon": {
+      "speed": 7,
+      "homingRange": 20,
+      "homingPower": 5,
+      "reloadMultiplier": 1.2,
+      "lifetime": "50f",
+      "damage": 30,
+      "hitSize": 3,
+      "width": 12,
+      "height": 18
+    },
+    "blast-compound": {
+      "drag": -0.015,
+      "speed": 7,
+      "damage": 20,
+      "hitSize": 3,
+      "width": 12,
+      "height": 18,
+      "splashDamageRadius": 35,
+      "splashDamage": 30,
+      "lifetime": 50,
+      "hitEffect": "blastExplosion",
+      "despawnEffect": "blastExplosion"
+    }
+  },
+
+  "requirements": [
+    "copper/400",
+    "lead/400",
+    "graphite/200",
+    "silicon/80",
+    "titanium/80"
+  ],
+
+  "category": "turret",
+  "research": "sniper-a"
+}

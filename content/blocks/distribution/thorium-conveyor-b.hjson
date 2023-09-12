@@ -1,0 +1,11 @@
+type: Conveyor
+name: Thorium conveyor
+description: Thorium conveyor, really fast conveyor.
+requirements: [
+	thorium/1
+]
+health: 100
+speed: 0.15
+category: distribution
+displayedSpeed: 20
+research: titanium-conveyor

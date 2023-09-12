@@ -1,0 +1,115 @@
+{
+  "type": "flying",
+  "name": "Builder",
+  "description": "A constructor bot ready and waiting to assist, doesnt mine as good as the miner ship.",
+  //"controller": "BuilderAI",
+  "defaultCommand": "rebuild",
+  "flying": true,
+  "rotateSpeed": 20,
+  "drag": 0.03,
+  "accel": 0.12,
+  "speed": 2.15,
+  "buildSpeed": 0.55,
+  "health": 400,
+  "engineSize": 2,
+  "engineOffset": 5.7,
+  "range": 150,
+  "hitSize": 8,
+  "lowAltitude": true,
+  //"commandLimit": 3,
+  "mineTier": 3,
+  "mineSpeed": 3,
+  "abilities": [
+    {
+      "type": "RepairFieldAbility",
+      "amount": 22,
+      "range": 60
+    }
+  ],
+  "weapons": [
+    {
+      "name": "alchain-blaster-equip",
+      "top": false,
+      "y": -3.5,
+      "x": 2.5,
+      "reload": 60,
+      "ejectEffect": "none",
+      "recoil": 2,
+      "shootSound": "missile",
+      //"shots": 1,
+      "shoot": {
+        "firstShotDelay": 0,
+        "shots": 1,
+        "shotDelay": 0
+      },
+      "velocityRnd": 0.5,
+      "inaccuracy": 13,
+      "alternate": true,
+      "bullet": {
+        "speed": 4.0,
+        "damage": 16,
+        "homingPower": 90,
+        "homingRange": 120,
+        "weaveMag": 5,
+        "weaveScale": 5,
+        "lifetime": 60,
+        "keepVelocity": false,
+        "shootEffect": "shootSmall",
+        "smokeEffect": "shootSmallSmoke",
+        "hitSound": "none",
+        "healPercent": 2.5,
+        "collidesTeam": true
+      }
+    },
+    {
+      "name": "alchain-blaster-equip01",
+      "top": false,
+      "y": 3.5,
+      "x": 3.5,
+      "reload": 45,
+      "ejectEffect": "none",
+      "recoil": 2,
+      "shootSound": "missile",
+      //"shots": 1,
+      "shoot": {
+        "firstShotDelay": 0,
+        "shots": 1,
+        "shotDelay": 0
+      },
+      "velocityRnd": 0.5,
+      "inaccuracy": 13,
+      "alternate": true,
+      "bullet": {
+        "speed": 4.0,
+        "damage": 28,
+        "homingPower": 1,
+        "homingRange": 90,
+        "weaveMag": 3,
+        "weaveScale": 3,
+        "lifetime": 60,
+        "keepVelocity": false,
+        "shootEffect": "shootSmall",
+        "smokeEffect": "shootSmallSmoke",
+        "hitSound": "none",
+        "collidesTeam": false
+      }
+    }
+  ],
+  "research": {
+    "parent": "alienshipminer",
+    "requirements": [
+      {
+        "item": "alientech",
+        "amount": 5000
+      },
+      {
+        "item": "surge-alloy",
+        "amount": 4000
+      },
+      {
+        "item": "plastanium",
+        "amount": 4000
+      }
+    ]
+  }
+}

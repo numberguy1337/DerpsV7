@@ -1,0 +1,22 @@
+{
+  "type": "Drill",
+  "name": "Aluminum drill",
+  "description": "Aluminum drill",
+  "health": 360,
+  "size": 2,
+  "hasLiquids": true,
+  "liquidCapacity": 5,
+  "category": "production",
+  "tier": 6,
+  "liquidBoostIntensity": 2.2,
+  "drillTime": 200,
+
+  "consumes": {
+    "liquid": {
+      "liquid": "water",
+      "booster": true,
+      "amount": 0.1,
+      "optional": true
+    }
+  }
+}

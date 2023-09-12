@@ -1,0 +1,75 @@
+{
+  "type": "ItemTurret",
+  "name": "The Purple Beetle",
+  "description": "A massive barreled cannon. Shoots multiple heavy armor-piercing bullets enemy targets.",
+  "health": 4200,
+  "size": 3,
+  "targetAir": true,
+  "reload": 34.5,
+  //"burstSpacing": 3,
+  "range": 227,
+  "inaccuracy": 6,
+  "maxAmmo": 30,
+  "shootSound": "shootBig",
+  //"shots": 2,
+  "shootCone": 18,
+  //"shootShake": 2,
+  "recoil": 6,
+  "shoot": {
+    "firstShotDelay": 0,
+    "shots": 2,
+    "shotDelay": 4
+  },
+  "ammoTypes": {
+    "graphite": {
+      "speed": 6,
+      "lifetime": 80,
+      "shootEffect": "shootBig",
+      "hitEffect": "flakExplosion",
+      "damage": 70,
+      "hitSize": 5,
+      "width": 16,
+      "height": 21
+    },
+    "pyratite": {
+      "speed": 6,
+      "lifetime": 80,
+      "status": "burning",
+      "shootEffect": "shootBig",
+      "hitEffect": "explosion",
+      "damage": 96,
+      "hitSize": 5,
+      "width": 16,
+      "height": 21
+    },
+    "thorium": {
+      "speed": 6,
+      "lifetime": 80,
+      "shootEffect": "shootBig",
+      "hitEffect": "explosion",
+      "damage": 80,
+      "hitSize": 5,
+      "width": 16,
+      "height": 21
+    },
+    "alientech": {
+      "speed": 6,
+      "lifetime": 80,
+      "damage": 106,
+      "hitSize": 5,
+      "width": 16,
+      "height": 21,
+      "homingPower": 20,
+      "homingRange": 80,
+      "shootEffect": "shootBig",
+      "hitEffect": "flakExplosion"
+    }
+  },
+  "requirements": [
+    "graphite/180",
+    "thorium/375",
+    "alientech/160"
+  ],
+  "category": "turret",
+  "research": "alien-duo"
+}

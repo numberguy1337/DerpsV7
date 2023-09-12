@@ -1,0 +1,70 @@
+{
+  "type": "flying",
+  "name": "Thorium Drone",
+  "description": "Thorium drone! Regenerative ability with a forcefield, this drone does not circle the target but is much stronger.",
+  "speed": 2.46,
+  "accel": 0.086,
+  "drag": 0.06,
+  "range": 360,
+  "flying": true,
+  "health": 2100,
+  "armor": 10,
+  "hitSize": 16,
+  "engineOffset": 6.25,
+  "baseRotateSpeed": 1.88,
+  "circleTarget": false,
+
+  "weapons": [
+    {
+      "name": "eruption",
+      "reload": 20,
+      "alternate": true,
+      "bullet": {
+        "lifetime": 54,
+        "damage": 60,
+        "speed": 6,
+        "shootEffect": "shootBig",
+        "smokeEffect": "shootBigSmoke",
+        "height": 2,
+        "width": 4,
+        "hitEffect": "flakExplosion"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "type": "RepairFieldAbility",
+      "range": 2.5,
+      "amount": 30,
+      "reload": 120
+    },
+    {
+      "type": "ShieldRegenFieldAbility",
+      "range": 2.25,
+      "amount": 100,
+      "max": 500,
+      "reload": 180
+    }
+  ],
+  "research": {
+    "parent": "drone-titanium",
+    "requirements": [
+      {
+        "item": "titanium",
+        "amount": 26800
+      },
+      {
+        "item": "graphite",
+        "amount": 18000
+      },
+      {
+        "item": "silicon",
+        "amount": 18000
+      },
+      {
+        "item": "thorium",
+        "amount": 12000
+      }
+    ]
+  }
+}

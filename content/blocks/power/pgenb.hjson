@@ -1,0 +1,28 @@
+type: SolarGenerator
+name: Power Generator
+description: "Produces power"
+health: 200
+size: 2
+hasPower: true
+powerProduction: 0.6
+
+requirements: [
+    copper/1000
+    lead/500
+]
+
+category: power
+	"research": {
+		"parent": "pgena",
+		"requirements": [
+			{
+				"item": "copper",
+				"amount": 72000
+			},
+			{
+				"item": "lead",
+				"amount": 36000
+			}
+		]
+	}
+"buildVisibility": "campaignOnly"

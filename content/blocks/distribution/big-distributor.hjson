@@ -1,0 +1,11 @@
+name: Big Distributor
+type: Router
+description: Big distributor.
+category: distribution
+itemCapacity: 2
+size: 3
+speed: 8
+research: distributor
+requirements: [
+    iron/16
+]

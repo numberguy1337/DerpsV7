@@ -1,0 +1,15 @@
+{
+	"localizedName": "Alien-tech Junction",
+	"type": "Junction",
+	"description": "Weirdly efficient junction.",
+	"size": 1,
+	"speed": 4,
+	"capacity": 16,
+	"health": 100,
+	"buildCostMultiplier": 1.0,
+	"category": "distribution",
+	"research": "alientech-router",
+	"requirements": [
+		{ "item": "alientech", "amount": 2 }
+	]
+}

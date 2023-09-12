@@ -1,0 +1,40 @@
+{
+  "type": "mech",
+  "name": "Minigunner",
+  "description": "Eliminate your foes with inaccurate miniguns!",
+  "speed": 0.605,
+  "flying": false,
+  "health": 1450,
+  //"commandLimit": 4,
+  "armor":  6,
+  "weapons": [
+    {
+      "name": "flakgun-equip",
+      "shootSound": "pew",
+      "inaccuracy": 18.5,
+      "reload": 3.15,
+      "alternate": false,
+      "recoil":  0.15,
+      "bullet": {
+        "lifetime": 20,
+        "speed": 5.25,
+        "damage": 12.0,
+        "frontColor": "ffa665",
+        "backColor": "ffb04a"
+      }
+    }
+  ],
+  "research": {
+    "parent": "thicctitan",
+    "requirements": [
+      {
+        "item": "silicon",
+        "amount": "9500"
+      },
+      {
+        "item": "graphite",
+        "amount": "9500"
+      }
+    ]
+  }
+}

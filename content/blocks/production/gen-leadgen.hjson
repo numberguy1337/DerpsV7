@@ -1,0 +1,30 @@
+type: GenericCrafter
+name: "Lead Generator"
+description: "This contraption allows you to dig up lead from below the surface."
+size: 2
+hasItems: true
+hasLiquids: false
+craftTime: 150
+updateEffect: smeltsmoke
+requirements: [
+    copper/175
+    lead/350
+]
+category: production
+research: {
+    "parent": "gen-coppergen",
+    "requirements":[
+        {
+           "item": "copper",
+           "amount": "14200"
+           },
+           {
+            "item": "lead",
+            "amount": "28400"
+            }
+		]
+     }
+ambientSound: respawning
+ambientSoundVolume: 0.4
+outputItem: lead/1
+"buildVisibility": "campaignOnly"

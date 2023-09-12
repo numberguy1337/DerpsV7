@@ -1,0 +1,60 @@
+name: Lich Hybrid
+description: "You were able to recreate the lich.. mostly, the Lich Hybrid can build 5x better but cannot harvest"
+buildPower: 5.0
+
+health: 5500
+mass: 22
+hitsize: 40
+speed: 0.027
+maxVelocity: 0.67
+drag: 0.04
+range: 100
+shootCone: 40
+flying: true
+rotateWeapon: true
+engineOffset: 21
+engineSize: 6.0
+rotatespeed: 0.02
+attackLength: 100
+baseRotateSpeed: 0.02
+
+weapon: {
+  name: lich-missiles
+  length: 5
+  reload: 120
+  width: 24
+  shots: 14
+  shootCone: 100
+  shotDelay: 1.4
+  inaccuracy: 14
+  alternate: true
+  recoil: 7
+  ejectEffect: none
+  velocityRnd: 0.2
+  spacing: 1.0
+  shootSound: artillery
+  bullet: artilleryExplosive
+  bulletSprite: shell
+  trailEffect: artilleryTrail
+    bullet: {
+            damage: 32
+            speed: 1.75
+            bulletWidth: 8
+            bulletHeight: 8
+            bulletShrink: 0
+            drag: -0.003
+            homingRange: 180
+            keepVelocity: false
+            splashDamageRadius: 45
+            splashdamage: 32
+            lifetime: 90
+            trailColor: 018af2
+            hitEffect: blastExplosion
+            despawnEffect: blastExplosion
+            weaveScale: 6
+            weaveMag: 1
+            knockback: 0.08
+            frontColor: dd551e
+            backColor: 30aebb
+    }
+}

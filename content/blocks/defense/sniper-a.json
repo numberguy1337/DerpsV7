@@ -1,0 +1,45 @@
+{
+  "type": "ItemTurret",
+  "name": "Sniper",
+  "description": "Long ranged turret capable of taking down enemies from a distance.",
+  "health": 770,
+  "size": 2,
+  "range": 285,
+  "targetAir": true,
+  "hasPower": false,
+  "recoil": 4,
+  "reload": 160,
+  "shootSound": "shootBig",
+  "rotateSpeed": 15,
+
+  "ammoTypes": {
+    "copper": {
+      "speed": 6.5,
+      "lifetime": 55,
+      "shootEffect": "shootSmall",
+      "smokeEffect": "shootSmallSmoke",
+      "damage": 9,
+      "hitSize": 2,
+      "width": 9,
+      "height": 12
+    },
+    "graphite": {
+      "speed": 6.5,
+      "lifetime": 55,
+      "reloadMultiplier": 0.6,
+      "damage": 18,
+      "hitSize": 2,
+      "width": 9,
+      "height": 12
+    }
+  },
+  "requirements": [
+    "copper/250",
+    "lead/250",
+    "graphite/70"
+
+  ],
+
+  "category": "turret",
+  "research": "minigun"
+}

@@ -1,0 +1,60 @@
+{
+  "type": "flying",
+  "name": "Titanium Drone",
+  "description": "The drone has been modified with titanium, it also has the power to regenerate.",
+  "speed": 3.06,
+  "accel": 0.086,
+  "drag": 0.06,
+  "range": 280,
+  "flying": true,
+  "health": 800,
+  "armor": 5,
+  "hitSize": 10,
+  "engineOffset": 5.75,
+  "baseRotateSpeed": 1.48,
+  "circleTarget": true,
+
+  "weapons": [
+    {
+      "name": "mount-purple-weapon",
+      "reload": 12,
+      "alternate": true,
+      "bullet": {
+        "lifetime": 55,
+        "damage": 36,
+        "speed": 6.0,
+        "shootEffect": "shootBig",
+        "smokeEffect": "shootSmallSmoke"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "type": "RepairFieldAbility",
+      "range": 1.25,
+      "amount": 20,
+      "reload": 120
+    }
+  ],
+  "research": {
+    "parent": "drone-lead",
+    "requirements": [
+      {
+        "item": "titanium",
+        "amount": 12000
+      },
+      {
+        "item": "lead",
+        "amount": 12000
+      },
+      {
+        "item": "graphite",
+        "amount": 9000
+      },
+      {
+        "item": "silicon",
+        "amount": 9000
+      }
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "type": "PowerTurret",
+  "name": "Shoark II",
+  "description": "An Enhanced Shoark, shoots multiple lightning bolts.",
+  "health": 300,
+  "size": 2,
+  "range": 140,
+  "reload": 55,
+  "shootSound": "spark",
+  "shootCone": 15,
+  //"lightning": 5,
+  "shoot": {
+    "firstShotDelay": 0,
+    "shots": 5,
+    "shotDelay": 0
+  },
+  "shootType": {
+    "type": "LightningBulletType",
+    //"colors": [ "fa20ff55", "faffbbaa", "ffa6f6", "ffffff" ],
+    "lightningLength": 24,
+    "damage": 38,
+    "lightningDamage": 38
+  },
+  "rotateSpeed": 100,
+  //"consumePower": 2.5,
+  "consumes": {
+    "power": 2.5
+  },
+  "targetAir": true,
+  "targetGround": true,
+  "heatColor": "ff0000",
+  "shootEffect": "lightningShoot",
+  "recoil": 2,
+  //"cooldown": 0.02,
+  //"restitution": 0.02,
+  "requirements": [
+    "alientech/300"
+  ],
+  "category": "turret",
+  "research": "alienarc"
+}

@@ -1,0 +1,27 @@
+type: GenericCrafter
+name: Scrap Cruncher
+description: "Combines 10 of each material to produce scrap. Sometimes areas dont have much of certain resources, eh?",
+craftTime: 27.5
+size: 2
+updateEffect: smeltsmoke
+itemCapacity: 20
+consumes: {
+  power: 1.5
+  items: {
+    items: [
+      copper/10
+      lead/10
+      graphite/10
+    ]
+  }
+}
+requirements: [
+    copper/400
+    lead/400
+    graphite/150
+]
+category: crafting
+research: copper-forge
+ambientSound: respawning
+ambientSoundVolume: 0.4
+outputItem: scrap/5

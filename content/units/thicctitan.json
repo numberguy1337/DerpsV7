@@ -1,0 +1,45 @@
+{
+  "Type": "mech",
+  "name": "Thicc Titan",
+  "description": "Its an old titan, but a little thiccker.",
+  "range": 210,
+  "flying": false,
+  "health": 995,
+  //"commandLimit": 4,
+  "armor": 3,
+  "speed": 3,
+  "weapons": [
+    {
+      "name": "flamethrower-equip",
+      "shootSound": "flame",
+      "reload": 14,
+      "alternate": true,
+      "recoil": 1.1,
+      "ejectEffect": "none",
+      "bullet": {
+        "damage": 18,
+        "lifetime": 80,
+        "pierce": true,
+        "drag": 0.0125,
+        "statusDuration": 120,
+        "shootEffect": "shootSmallFlame",
+        "hitEffect": "hitFlameSmall",
+        "despawnEffect": "none",
+        "status": "burning"
+      }
+    }
+  ],
+  "research": {
+    "parent": "groundFactoryb",
+    "requirements": [
+      {
+        "item": "silicon",
+        "amount": 500
+      },
+      {
+        "item": "graphite",
+        "amount": 750
+      }
+    ]
+  }
+}

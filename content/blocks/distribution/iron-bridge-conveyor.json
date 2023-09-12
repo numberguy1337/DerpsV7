@@ -1,0 +1,17 @@
+{
+  "type": "BufferedItemBridge",
+  "name": "Iron Bridge Conveyor",
+  "description": "The iron bridge awaits your usage inquiring the speed of range transportation.",
+
+  "health": 200,
+  "range": 7,
+  "speed": 25,
+  "bufferCapacity": 10,
+
+  "requirements": [
+    "iron/4"
+  ],
+
+  "category": "distribution",
+  "research": "iron-conveyor"
+}

@@ -1,0 +1,14 @@
+{
+	"type": "LiquidRouter",
+	"name": "Iron Liquid Router",
+	"description": "Iron liquid router? Holds a bit more water and has more health.",
+	"health": 250,
+	"liquidCapacity": 30,
+	"liquidPressure": 1.225,
+	"requirements": [
+		"iron/4",
+		"metaglass/2"
+	],
+	"category": "liquid",
+	"research": "iron-conduit"
+}

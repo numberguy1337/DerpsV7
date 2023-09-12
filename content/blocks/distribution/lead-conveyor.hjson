@@ -1,0 +1,12 @@
+type: Conveyor
+name: Lead conveyor
+description: Lead conveyor, conveyor made of lead, slightly faster than the basic conveyor.
+requirements: [
+  lead/1
+]
+category: distribution
+
+health: 50
+speed: 0.0375
+displayedSpeed: 6
+research: conveyor

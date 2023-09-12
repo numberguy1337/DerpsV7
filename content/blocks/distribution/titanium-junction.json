@@ -1,0 +1,15 @@
+{
+	"localizedName": "Titanium Junction",
+	"type": "Junction",
+	"description": "Faster junction.",
+	"size": 1,
+	"speed": 18.0,
+	"capacity": 8,
+	"health": 70,
+	"buildCostMultiplier": 2,
+	"category": "distribution",
+	"research": "junction",
+	"requirements": [
+		{ "item": "titanium", "amount": 2 }
+	]
+}

@@ -1,0 +1,22 @@
+{
+    "Type": "RepairTurret",
+    "name": "Nano Turret",
+    "description": "Repairs ships slowly from a long range.",
+    "health": 360,
+    "size": 2,
+
+    "repairSpeed": 0.36,
+    "repairRadius": 190,
+    "beamWidth": 1.7,
+    "pulseRadius": 12,
+    "powerUse": 1.5,
+    "acceptCoolant": false,
+
+    "requirements": [
+        "graphite/50",
+        "silicon/100"
+    ],
+
+    "category": "units",
+    "research": "repair-point"
+}

@@ -1,0 +1,26 @@
+{
+  "type": "PowerSource",
+  "name": "Self Sustaining Power Generator",
+  "description": "The 'SSPG produces ( 180 ) power, and is not affected by the weather and will continue to produce power in extreme weather conditions.",
+  "health": 600,
+  "size": 3,
+  "hasPower": true,
+  //  "hasLiquids": false,
+  //  "hasItems": false,
+  "maxNodes": "2", // node connection
+  "laserRange": "0", // node range
+  "powerProduction": 3.0, // 1=60,2=120,3=180 ( A=(Bx60)
+//  "powerBuffered": 20000, // PowerSource does NOT have powerBuffered ( power capacity )
+  "requirements": [
+    "graphite/300",
+    "surge-alloy/200",
+    "silicon/180",
+    "phase-fabric/180"
+  ],
+  "ambientSound": "steam",
+  "ambientSoundVolume": "0.07f",
+  "category": "power",
+  "research": "pgenb",
+  "researchCostMultiplier": 50
+//  "buildVisibility": "campaignOnly"
+}

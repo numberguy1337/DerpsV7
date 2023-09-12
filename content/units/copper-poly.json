@@ -1,0 +1,83 @@
+{
+  "type": "flying",
+  "name": "copper poly",
+  "description": "Supporting weaker version of a poly.",
+  //"controller": "BuilderAI",
+  "defaultCommand": "rebuild",
+  "flying": true,
+  "rotateSpeed": 17,
+  "drag": 0.05,
+  "accel": 0.11,
+  "speed": "1.95",
+  "buildSpeed": "0.275",
+  "health": 220,
+  "engineSize": "1.8f",
+  "engineOffset": "5.7f",
+  "range": 130,
+  "hitSize": 8,
+  "lowAltitude": "true",
+  //"commandLimit": 3,
+  "mineTier": "2",
+  "mineSpeed": 1.65,
+  "abilities": [
+    {
+      "type": "RepairFieldAbility",
+      "amount": 3,
+      "range": 40
+    }
+
+  ],
+  "weapons": [
+    {
+      "name": "heal-weapon-mount",
+      "top": false,
+      "y": -2.5,
+      "x": 3.5,
+      "reload": 45,
+      "ejectEffect": "none",
+      "recoil": 2,
+      "shootSound": "missile",
+      //"shots": 1,
+      "shoot": {
+        "firstShotDelay": 0,
+        "shots": 1,
+        "shotDelay": 0
+      },
+      "velocityRnd": 0.5,
+      "inaccuracy": 13,
+      "alternate": true,
+      "bullet": {
+        "speed": 4.0,
+        "damage": 5,
+        "homingPower": 0.115,
+        "homingRange": 40,
+        "weaveMag": 2,
+        "weaveScale": 2,
+        "lifetime": 58,
+        "keepVelocity": false,
+        "shootEffect": "shootHeal",
+        "smokeEffect": "hitLaser",
+        "hitSound": "none",
+        "healPercent": 1.25,
+        "collidesTeam": true
+      }
+    }
+  ],
+  "research": {
+    "parent": "copper-mono",
+    "requirements": [
+      {
+        "item": "copper",
+        "amount": 5000
+      },
+      {
+        "item": "lead",
+        "amount": 4000
+      },
+      {
+        "item": "graphite",
+        "amount": 4000
+      }
+    ]
+  }
+}

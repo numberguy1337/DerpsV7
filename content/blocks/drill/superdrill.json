@@ -1,0 +1,39 @@
+{
+  "type": "Drill",
+  "name": "Super blast drill",
+  "description": "A Super blast drill, uses cryofluid to cooldown the excessive output.",
+  "size": 4,
+  "tier": 6,
+  "drillTime": 200,
+  "drillEffect": "mineHuge",
+  "drawRim": true,
+  "updateEffect": "pulverizeRed",
+  "updateEffectChance": 0.03,
+  "rotateSpeed": 6,
+  "warmupSpeed": 0.01,
+  "liquidBoostIntensity": 2.0, //more than the blast-drill
+  "hasPower": true,
+  "hasLiquids": true,
+  "liquidCapacity": 40,
+  "itemCapacity": 40,
+
+  "consumes": {
+    "power": 6, // //1 = 60, 3=180, 6=360
+    "liquid": {
+      "liquid": "cryofluid",
+      "booster": true,
+      "amount": 0.12,
+      "optional": true
+    }
+  },
+  "requirements": [
+    "copper/200",
+    "graphite/150",
+    "silicon/150",
+    "titanium/300",
+    "thorium/300"
+  ] //,
+
+  //"category": "production",
+  //"research": "derps-drill"
+}

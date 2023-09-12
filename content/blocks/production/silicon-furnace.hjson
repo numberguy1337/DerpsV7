@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: Silicon Furance
+description: An upgraded version of the silicon smelter. Uses more power with higher quantities of sand and coal to produce silicon.
+size: 3
+craftTime: 30
+updateEffect: smeltsmoke
+itemCapacity: 16
+consumes: {
+  power: 2.0
+  items: {
+    items: [
+      coal/4
+      sand/8
+    ]
+  }
+}
+requirements: [
+    lead/100
+    graphite/80
+    titanium/125
+    silicon/200
+]
+category: crafting
+research: silicon-smelter
+ambientSound: respawning
+ambientSoundVolume: 0.4
+
+outputItem: silicon/5

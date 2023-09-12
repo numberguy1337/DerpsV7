@@ -1,0 +1,16 @@
+{
+  "name": "Alien Tech",
+  "description": "A rare resource, can be forged from surge alloy and plastanium.",
+  //"hardness": 6,
+  //cost: 2,
+  "flammability": 0.05,
+  "explosiveness": 0.1,
+  "hardness": 6,
+  "radioactivity": 0,
+  "charge": 0.25,
+  "cost": 1,
+  "color": "ffffff",
+  "research": {
+    "parent": "surge-alloy"
+  }
+}

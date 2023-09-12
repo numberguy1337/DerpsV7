@@ -1,0 +1,28 @@
+{
+  "type": "GenericCrafter",
+  "name": "Hydrogen distiller",
+  "description": "Forms hydrogen. - Idea and sprite from RealLifeMindustry Mod",
+  "liquidCapacity": 240,
+  "size": 2,
+  "hasPower": true,
+  "hasLiquids": true,
+  "hasItems": true,
+  "craftTime": 120,
+  "updateEffect": "smeltsmoke",
+  "consumes": {
+    "power": 2,
+    "liquid": {
+      "liquid": "water",
+      "amount": 2
+    }
+  },
+  "requirements": [
+    "copper/100",
+    "lead/100",
+    "titanium/120",
+    "thorium/120"
+  ],
+  "category": "crafting",
+  "research": "rotary-pump",
+  "outputLiquid": "hydrogen/1"
+}

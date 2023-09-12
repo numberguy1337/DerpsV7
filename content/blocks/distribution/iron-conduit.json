@@ -1,0 +1,14 @@
+{
+	"type": "Conduit",
+	"name": "Iron Conduit",
+	"description": "Iron Conduit",
+	"health": 175,
+	"liquidCapacity": 24,
+	"liquidPressure": 1.225,
+	"requirements": [
+		"iron/1",
+		"metaglass/2"
+	],
+	"category": "liquid",
+	"research": "forge-iron"
+}

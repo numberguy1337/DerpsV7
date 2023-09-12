@@ -1,0 +1,39 @@
+{
+	"type": "flying",
+	"name": "Derpy Flare",
+	"speed": 3,
+	"accel": 0.09,
+	"drag": 0.02,
+	"range": 240,
+	"flying": true,
+	"health": 90,
+	"engineOffset": 5.5,
+	"baseRotateSpeed": 0.97,
+	"circleTarget": true,
+	//"commandLimit": 3,
+	"weapons": [
+		{
+			"name": "derpblaster-equip",
+			"reload": 13,
+			"alternate": true,
+			"bullet": {
+				"homingRange": 18,
+				"homingPower": 0.12,
+				"lifetime": 60,
+				"damage": 7,
+				"speed": 5,
+				"shootEffect": "shootSmall",
+				"smokeEffect": "shootSmallSmoke"
+			}
+		}
+	],
+	"research": {
+		"parent": "airFactoryb",
+		"requirements": [
+			{
+				"item": "silicon",
+				"amount": 1000
+			}
+		]
+	}
+}

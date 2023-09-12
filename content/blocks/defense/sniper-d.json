@@ -1,0 +1,71 @@
+{
+  "type": "ItemTurret",
+  "name": "Enhanced Sniper v2.0",
+  "description": "The SNIPER it was meant to be, it was also enhanced with alien type tech.",
+  "health": 1500,
+  "size": 3,
+  "range": 475,
+  "targetAir": true,
+  "hasPower": false,
+  "recoil": 5,
+  "reload": 170,
+  "shootSound": "shootBig",
+  "rotateSpeed": 15,
+  "ammoTypes": {
+    "graphite": {
+      "speed": 9.25,
+      "lifetime": 65,
+      "damage": 50,
+      "hitSize": 4,
+      "width": 16,
+      "height": 21,
+      "splashDamageRadius": 50,
+      "splashDamage": 52,
+      "knockback": 1.4,
+      "hitEffect": "flakExplosion"
+    },
+    "thorium": {
+      "speed": 9,
+      "lifetime": 65,
+      "damage": 68,
+      "hitSize": 4,
+      "width": 16,
+      "height": 21,
+      "knockback": 1.2
+    },
+    "alientech": {
+      "speed": 9,
+      "lifetime": 65,
+      "damage": 116,
+      "hitSize": 4,
+      "width": 16,
+      "height": 21,
+      "homingPower": 20,
+      "homingRange": 20,
+      "knockback": 1.20
+    },
+    "blast-compound": {
+      "speed": 9,
+      "damage": 0,
+      "hitSize": 4,
+      "width": 16,
+      "height": 21,
+      "splashDamageRadius": 60,
+      "splashDamage": 98,
+      "lifetime": 65,
+      "knockback": 1.5,
+      "hitEffect": "blastExplosion",
+      "despawnEffect": "blastExplosion"
+    }
+  },
+
+  "requirements": [
+    "graphite/500",
+    "titanium/500",
+    "thorium/400",
+    "alientech/240"
+  ],
+
+  "category": "turret",
+  "research": "sniper-c"
+}

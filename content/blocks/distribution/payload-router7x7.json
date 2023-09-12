@@ -1,0 +1,19 @@
+{
+	"type": "PayloadRouter",
+	"size": 7,
+	"name": "Thorium Payload Conveyor",
+	"description": "A 7x7 payload conveyor... Apparently this thing is a joke, I suggest not using it",
+	"canOverdrive": false,
+	"requirements": [
+		"thorium/70",
+		"titanium/50",
+		"graphite/50",
+		"copper/100"
+	],
+	"category": "distribution",
+
+	"health": 500,
+//	"speed": 0.0375,
+//	"displayedSpeed": 6,
+	"research": "payload-router"
+}

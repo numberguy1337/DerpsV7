@@ -1,0 +1,45 @@
+{
+  "type": "flying",
+  "name": "Lead Drone",
+  "description": "The copper drone has evolved into a lead drone!",
+  "speed": 2.94,
+  "accel": 0.09,
+  "drag": 0.06,
+  "range": 240,
+  "flying": true,
+  "health": 350,
+  "engineOffset": 5.5,
+  "baseRotateSpeed": 0.98,
+  "circleTarget": true,
+  "weapons": [
+    {
+      "name": "mount-purple-weapon",
+      "reload": 14,
+      "alternate": true,
+      "bullet": {
+        "lifetime": 50,
+        "damage": 10,
+        "speed": 5.5,
+        "shootEffect": "shootSmall",
+        "smokeEffect": "shootSmallSmoke"
+      }
+    }
+  ],
+  "research": {
+    "parent": "drone-copper",
+    "requirements": [
+      {
+        "item": "copper",
+        "amount": 8000
+      },
+      {
+        "item": "lead",
+        "amount": 8000
+      },
+      {
+        "item": "graphite",
+        "amount": 7500
+      }
+    ]
+  }
+}

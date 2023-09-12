@@ -1,0 +1,15 @@
+type: Wall
+name: Derps Large Wall
+description: Derp combined even more materials and said DEFEND ME.
+requirements: [
+    copper/24
+    lead/24
+    graphite/24
+    silicon/24
+    titanium/24
+    thorium/24
+]
+health: 5200
+size: 2
+category: defense
+research: derps-wall

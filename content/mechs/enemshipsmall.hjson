@@ -1,0 +1,25 @@
+type: flyingUnit
+name: Scout
+description: "Dummy enemy ship - enemy/sandbox only"
+
+maxVelocity: 1.0
+speed: 0.23
+drag: 0.05
+mass: 1.25
+flying: true
+health: 170
+engineOffset: 3
+weaponOffsetX: 5
+
+ weapon: {    
+   "name": "derpblaster-equip",    
+   "reload": 24,
+   "type": "BasicBulletType",
+    alternate: true
+    length: 1.4
+  bullet: {
+    "lifetime": 70,
+    "speed": 2.4,
+    "damage": 17,
+  }
+}

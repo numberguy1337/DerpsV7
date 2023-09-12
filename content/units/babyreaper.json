@@ -1,0 +1,53 @@
+{
+	"type": "flying",
+	"name": "Baby Reaper",
+	"description": "omgggggg tsys the cutets j lovdhr",
+	"flying": true,
+	"speed": 2,
+	"accel": 0.09,
+	"drag": 0.031,
+	"baseRotateSpeed": 0.46,
+	"health": 660,
+	"engineOffset": 12.2,
+	"engineSize": 2.7,
+	"range": 190,
+	//"commandLimit": 3,
+	"weapons": [
+		{
+			"name": "tiny-equip",
+			"alternate": true,
+			"reload": 17.5,
+			"ejectEffect": "none",
+			"inaccuracy": 2,
+			"ignoreRotation": true,
+			"bullet": {
+				"type": "BasicBulletType",
+				"shootEffect": "shootSmall",
+				"speed": 7,
+				"recoil": 0.28,
+				"width": 11,
+				"height": 14,
+				"damage": 58,
+				"lifetime": 27,
+				"keepVelocity": false
+			}
+		}
+	],
+	"research": {
+		"parent": "derp-bomber",
+		"requirements": [
+			{
+				"item": "silicon",
+				"amount": 6500
+			},
+			{
+				"item": "graphite",
+				"amount": 9000
+			},
+			{
+				"item": "titanium",
+				"amount": 4000
+			}
+		]
+	}
+}

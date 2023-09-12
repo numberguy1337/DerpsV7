@@ -1,0 +1,39 @@
+{
+  "type": "Reconstructor",
+  "name": "Multiplicative Remodder",
+  "description": "Upgrades the modded units to T3 - WorkInProgress",
+  "health": 600,
+  "size": 5,
+  "itemCapacity": 300,
+  "constructTime": 700,
+
+  "requirements": [
+    "lead/800",
+    "titanium/450",
+    "silicon/600",
+    "thorium/750"
+  ],
+
+  "upgrades": [
+    [ "derp-bomber", "babyreaper" ],
+    [ "drone-lead", "drone-titanium" ],
+    //    [ "thicctitan", "minigunmech" ],
+    //    [ "derpmech", "predmech" ],
+    [ "copper-poly", "copper-mega" ]
+
+  ],
+
+  "consumes": {
+    "power": 6,
+    "items": {
+      "items": [
+        "metaglass/80",
+        "titanium/100",
+        "silicon/150"
+      ]
+    }
+  },
+
+  "category": "units",
+  "research": "AdditivereConstructorb"
+}

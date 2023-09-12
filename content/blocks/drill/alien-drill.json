@@ -1,0 +1,27 @@
+{
+  "type": "Drill",
+  "name": "Alien drill",
+  "description": "Alien drill.",
+  "liquidCapacity": 20,
+  "size": 2,
+  "hasPower": false,
+  "hasLiquids": true,
+  "consumes": {
+    "liquid": {
+      "liquid": "ata-coolant",
+      "booster": true,
+      "amount": 0.1,
+      "optional": true
+    }
+  },
+
+  "requirements": [
+    "alientech/40"
+  ],
+  "category": "production",
+  "research": "alientech-forge",
+  "tier": 5,
+  "drillTime": 45,
+  "liquidBoostIntensity": 1.76
+
+}

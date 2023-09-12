@@ -1,0 +1,88 @@
+{
+  "type": "flying",
+  "name": "copper mega",
+  "description": "Supporting weaker version of a mega.",
+  "controller": "RepairAI",
+  "flying": true,
+  "rotateSpeed": 16,
+  "drag": 0.017,
+  "accel": 0.06,
+  "speed": "2.5",
+  "buildSpeed": "0.75",
+  "health": 550,
+  "armor": 3,
+  "engineSize": "3",
+  "engineOffset": "10.5f",
+  "range": 140,
+  "hitSize": 15,
+  "lowAltitude": "true",
+  "payloadCapacity": 6,
+  "mineTier": "3",
+  "mineSpeed": 2.75,
+  //"isCounted": false,
+  //"commandLimit": 5,
+  ////"abilities": [
+  //    {
+  //      "type": "RepairFieldAbility",
+  //      "amount": 5,
+
+  //      "range": 40
+  //    }
+  //
+  //  ],
+  "weapons": [
+    {
+      "name": "heal-weapon-mount",
+      "x": 8,
+      "y": -6,
+      "rotate": true,
+      "reload": 28.5,
+      "recoil": 2,
+      "bullet": {
+        "speed": 4.5,
+        "damage": 5,
+        "lifetime": 33,
+        "keepVelocity": false,
+        "healPercent": 3.5,
+        "collidesTeam": true
+      }
+    },
+    {
+      "name": "heal-weapon-mount2",
+      "x": 4,
+      "y": 5,
+      "rotate": true,
+      "reload": 24.5,
+      "recoil": 2,
+      "bullet": {
+        "speed": 4.5,
+        "damage": 5,
+        "lifetime": 33,
+        "keepVelocity": false,
+        "healPercent": 2.75,
+        "collidesTeam": true
+      }
+    }
+  ],
+  "research": {
+    "parent": "copper-poly",
+    "requirements": [
+      {
+        "item": "copper",
+        "amount": 15000
+      },
+      {
+        "item": "lead",
+        "amount": 15000
+      },
+      {
+        "item": "graphite",
+        "amount": 8000
+      },
+      {
+        "item": "metaglass",
+        "amount": 8000
+      }
+    ]
+  }
+}

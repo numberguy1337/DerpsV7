@@ -1,0 +1,55 @@
+{
+	"type": "flying",
+	"name": "Derpy Bomber",
+	"description": "A derpy flare once looked at a horizon, and thought to its self, can't I be a bomber too?",
+	"speed": 1.62,
+	"accel": 0.085,
+	"drag": 0.017,
+	"range": 200,
+	"flying": true,
+	"hitSize": 9,
+	"health": 360,
+	"targetAir": false,
+	"engineOffset": 7.8,
+	"armor": 4,
+	//"commandLimit": 4,
+	"faceTarget": false,
+	"circleTarget": true,
+//	"targetFlag": "factory",
+	"weapons": [
+		{
+			"name": "",
+			"minShootVelocity": 0.60,
+			"reload": 11,
+			"shootCone": 180,
+			"inaccuracy": 15,
+			"ignoreRotation": true,
+			"shootSound": "none",
+				"bullet": {
+					"type": "BombBulletType",
+					"width": 12,
+					"height": 15,
+					"hitEffect": "flakExplosion",
+					"shootEffect": "none",
+					"smokeEffect": "none",
+					"status": "blasted",
+					"statusDuration": 60,
+					"splashDamage": 25,
+					"splashDamageRadius": 40
+				}
+		}
+],
+	"research": {
+		"parent": "derpflare",
+		"requirements": [
+			{
+				"item": "silicon",
+				"amount": 2000
+			},
+			{
+				"item": "graphite",
+				"amount": 2250
+			}
+		]
+	}
+}

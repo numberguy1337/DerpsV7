@@ -1,0 +1,23 @@
+{
+  "type": "GenericCrafter",
+  "name": "Copper Gen",
+  "description": "This contraption allows you to dig up copper from below the surface.",
+  "size": 2,
+  "hasPower": false,
+  "hasItems": true,
+  "hasLiquids": false,
+  "craftTime": 150,
+  "updateEffect": "smeltsmoke",
+
+  "requirements": [
+    "copper/600",
+    "titanium/100"
+  ],
+  "category": "production",
+
+  "ambientSound": "respawning",
+  "ambientSoundVolume": 0.4,
+  "outputItem": "copper/1",
+  "buildVisibility": "shown"
+
+}

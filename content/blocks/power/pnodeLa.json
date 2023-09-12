@@ -1,0 +1,35 @@
+{
+  "maxNodes": "18",
+  "laserRange": "11",
+  "type": "PowerNode",
+  "name": "Enhanced Large Power Node",
+  "description": "Enhanced node, more connections and a little more range for your node.",
+  "health": 240,
+  "size": 2,
+
+
+  "requirements": [
+    "lead/30",
+    "silicon/10",
+    "titanium/10"
+  ],
+
+  "category": "power",
+  "research": {
+    "parent": "pnodea",
+    "requirements": [
+      {
+        "item": "lead",
+        "amount": 2100
+      },
+      {
+        "item": "silicon",
+        "amount": 7000
+      },
+      {
+        "item": "titanium",
+        "amount": 7000
+      }
+    ]
+  }
+}

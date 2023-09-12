@@ -1,0 +1,18 @@
+{
+  "type": "Wall",
+  "name": "Alien Wall",
+  "description": "A wall made from the alien tech, capable of releasing electric arcs.  -",
+  "health": 1000,
+  "size": 1,
+  //  "chanceDeflect": 550,
+  "lightningChance": 0.12,
+  "lightningDamage": 20,
+  "lightningLength": 15,
+  "lightningColor": 800080,
+  "requirements": [
+    "alientech/6"
+  ],
+  "category": "defense",
+  "research": "alientech-forge"
+
+}

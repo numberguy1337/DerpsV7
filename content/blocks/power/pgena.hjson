@@ -1,0 +1,15 @@
+type: SolarGenerator
+name: Basic Power Generator
+description: "Produces power"
+health: 90
+size: 1
+hasPower: true
+powerProduction: 0.05
+
+requirements: [
+    copper/100
+    lead/50
+]
+
+category: power
+research: solar-panel

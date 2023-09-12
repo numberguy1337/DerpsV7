@@ -1,0 +1,70 @@
+{
+  // Cycer in V6 does not require script!
+  "type": "LaserTurret",
+  "name": "Pulse Phaser",
+  "description": "A powerful compressed beam capable of wiping out targets.",
+  "health": 2000,
+  "size": 4,
+  "range": 240,
+  "targetAir": false,
+  "hasPower": true,
+  //"cooldown": 0.06,
+  "heatColor": "FF0000",
+  "shootSound": "laser",
+  "shootDuration": 3, //does something
+  "reload": 120, //cooldown inbetween attacks
+  "recoil": 8,
+  "firingMoveFract": 0.3,
+  "shootCone": 3,
+  //"chargeEffect": "lancerLaserCharge",
+  //"chargeBeginEffect": "lancerLaserChargeBegin",
+  "canOverdrive": true,
+  "coolantMultiplier": 0.50,
+  "liquidCapacity": 300,
+  "shoot": {
+    "firstShotDelay": 0
+  },
+  "consumes": { //dont know why but if I dont enforce this it'll only shoot once then it nope train
+    "power": 6,
+    "coolant": {
+      "amount": 1.0,
+      "maxTemp": 0.35,
+      "optional": false,
+      "booster": false
+    }
+  },
+  "shootEffect": "lancerLaserShoot",
+  "smokeEffect": "none",
+  "shootType": {
+    "type": "LaserBulletType",
+    "colors": [ "fa20ff55", "faffbbaa", "ffa6f6", "ffffff" ],
+    "chargeEffect": [ "lancerLaserCharge", "lancerLaserChargeBegin" ],
+    "pierce": true,
+    "damage": 600, //bing bong F your life
+    "hitSize": 30, //
+    "width": 60, // width of the beam
+    "length": 270, //length of beam
+    "drawSize": 10, //drawSize is autoset
+    "shootEffect": "lancerLaserShoot",
+    /*"updateEffect": {
+      "type": "ParticleEffect",
+      "lifetime": 30,
+      "particles": 1,
+      "length": 0,
+      "sizeFrom": 0,
+      "sizeTo": 0,
+      "colorFrom": "fa20ff55",
+      "colorTo": "ffa6f6"
+    },*/
+    "hitEffect": "hitLancer",
+    "lifetime": 25, //beam appearance time'd life
+    "collidesAir": true //beam smack air
+  },
+  "requirements": [
+    "alientech/600",
+    "phase-fabric/200"
+  ],
+
+  "category": "turret",
+  "research": "alien-cycer"
+}

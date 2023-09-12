@@ -1,0 +1,79 @@
+{
+  "type": "ItemTurret",
+  "name": "Derp's Derpy Duo",
+  "description": "This Duo's specialty is being.. well.. a derp. A little inaccurate, but can fire lead.",
+  "health": 210,
+  "size": 1,
+  "reload": 16,
+  "range": 130,
+  "inaccuracy": 6,
+  "maxAmmo": 20,
+  "shootSound": "swings",
+  "rotateSpeed": 10,
+  "ammoTypes": {
+    "copper": {
+      "speed": 2.5,
+      "damage": 9,
+      "hitSize": 2,
+      "width": 7,
+      "height": 9,
+      "lifetime": 60,
+      "shootEffect": "shootSmall",
+      "smokeEffect": "shootSmallSmoke",
+      "ammoMultiplier": 2
+    },
+    "lead": {
+      "speed": 4.2,
+      "damage": 3,
+      "hitSize": 2,
+      "width": 6,
+      "height": 8,
+      "hitEffect": "flakExplosion",
+      "splashDamage": 40.5,
+      "splashDamageRadius": 15,
+      "lifetime": 60
+    },
+    "graphite": {
+      "speed": 3.5,
+      "damage": 18,
+      "hitSize": 2,
+      "width": 9,
+      "height": 12,
+      "reloadMultiplier": 0.6,
+      "ammoMultiplier": 4,
+      "lifetime": 60
+    },
+    "pyratite": {
+      "speed": 3.2,
+      "damage": 11,
+      "hitSize": 2,
+      "width": 10,
+      "height": 12,
+      "lifetime": 60,
+      "shootEffect": "shootBig",
+      "smokeEffect": "shootBigSmoke",
+      "ammoMultiplier": 4,
+      "status": "burning",
+      "makeFire": "true"
+    },
+    "silicon": {
+      "damage": 12,
+      "speed": 3,
+      "hitSize": 2,
+      "width": 7,
+      "height": 9,
+      "homingPower": "0.08f",
+      "homingRange": "20",
+      "ammoMultiplier": "5",
+      "lifetime": "60"
+    }
+  },
+
+  "requirements": [
+    "copper/30",
+    "lead/25"
+  ],
+
+  "category": "turret",
+  "research": "duo"
+}

@@ -1,0 +1,44 @@
+{
+	"type": "flying",
+	"name": "Ghost",
+	"description": "The path of air is to soar before one's air plumets - some guy",
+	"speed": 3.2,
+	"accel": 0.09,
+	"drag": 0.021,
+	"range": 285,
+	"flying": true,
+	"health": 150,
+	"engineOffset": 4.75,
+	"baseRotateSpeed": 0.97,
+	"circleTarget": true,
+	//"commandLimit": 3,
+	"weapons": [
+		{
+			"name": "alchain-blaster-equip",
+			"reload": 14,
+			"alternate": true,
+			"bullet": {
+				"homingRange": 90,
+				"homingPower": 0.19,
+				"lifetime": 60,
+				"damage": 16,
+				"speed": 6,
+				"hitSize": 4,
+				"width": 7,
+				"height": 9,
+				"shootEffect": "shootSmall",
+				"smokeEffect": "shootSmallSmoke",
+				"keepVelocity": false
+			}
+		}
+	],
+	"research": {
+		"parent": "alienairFactory",
+		"requirements": [
+			{
+				"item": "alientech",
+				"amount": 2000
+			}
+		]
+	}
+}

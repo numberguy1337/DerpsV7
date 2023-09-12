@@ -1,0 +1,19 @@
+type: GenericCrafter
+name: "A-Tech Generator"
+description: "By researching the 'alien tech' even more, you have made a break-through and now able to constantly manifest this technology!"
+size: 3
+hasLiquids: false
+craftTime: 400
+updateEffect: smeltsmoke
+consumes: {
+    power: 8
+}
+requirements: [
+    alientech/800
+]
+category: production
+research: alientech-press
+ambientSound: respawning
+ambientSoundVolume: 0.4
+
+outputItem: alientech/5

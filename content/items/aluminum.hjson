@@ -1,0 +1,9 @@
+
+name: Aluminum
+description: Aluminum bar. -ToBeImplimented
+hardness: 1
+cost: 1
+color: c1cbd1
+research: {
+	parent: iron
+	}

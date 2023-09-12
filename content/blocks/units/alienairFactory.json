@@ -1,0 +1,35 @@
+{
+
+  "name": "Basic Air Factory",
+  "type": "UnitFactory",
+  "category": "units",
+  "itemCapacity": "80",
+
+  "plans": [
+    {
+      "unit": "alienghostshipb",
+      "requirements": [
+        "alientech/15"
+      ],
+      "time": 900
+    },
+    {
+      "unit": "alienshipminer",
+      "requirements": [
+        "alientech/20"
+      ],
+      "time": 900
+    }
+
+  ],
+  "size": "3",
+  "consumes": {
+    "power": 2
+  },
+
+  "research": "alientech-forge",
+  "requirements": [
+    "alientech/200"
+  ]
+
+}

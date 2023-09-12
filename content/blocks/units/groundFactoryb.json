@@ -1,0 +1,35 @@
+{
+
+  "name": "Ground Factory b",
+  "type": "UnitFactory",
+  "category": "units",
+  "itemCapacity": "80",
+  "plans": [
+    {
+      "unit": "thicctitan",
+      "requirements": [
+        "silicon/10",
+        "graphite/15"
+      ],
+      "time": 900
+    },
+    {
+      "unit": "derpmech",
+      "requirements": [
+        "silicon/20",
+        "graphite/10"
+      ],
+      "time": 900
+    }
+  ],
+  "size": "3",
+  "consumes": {
+    "power": 1.2
+  },
+  "research": "ground-factory",
+  "requirements": [
+    "lead/150",
+    "graphite/25"
+  ]
+
+}

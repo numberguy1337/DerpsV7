@@ -1,0 +1,108 @@
+{
+	"type": "flying",
+	"name": "Revenant",
+	"description": "Tough fighter ready to fire missiles and shoot lasers.",
+	"flying": true,
+	"speed": 1.62,
+	"accel": 0.05,
+	"drag": 0.020,
+	"baseRotateSpeed": 1.0,
+	"health": 700,
+	"armor": 10,
+	"engineOffset": 21.5,
+	"engineSize": 5,
+	"lowAltitude": true,
+	//"forceMultiTarget": true,
+	"range": 320,
+	//"commandLimit": 3,
+	"hitSize": 28,
+	//"targetFlags": ["launchPad","storage","battery"],
+	"weapons": [
+		{
+			"name": "alien-missiles-equip",
+			"top": true,
+			"alternate": true,
+			"rotate": true,
+			"reload": 38,
+			"x": 12,
+			"y": 0,
+			"shake": 1,
+			"shoot": {
+				"firstShotDelay": 0,
+				"shots": 1,
+				"shotDelay": 0
+			},
+			"ejectEffect": "none",
+			"inaccuracy": 6,
+			"ignoreRotation": true,
+			"bullet": {
+				"type": "MissileBulletType", //zenith as reference
+				"shootEffect": "shootBig",
+				"speed": 3.77,
+				"damage": 40,
+				"splashDamageRadius": 40,
+				"splashDamage": 40,
+				"homingRange": 90,
+				"shrinkY": 0,
+				"drag": -0.003,
+				"lifetime": 80,
+				"recoil": 0.01,
+				"width": 12,
+				"height": 14,
+				"hitEffect": "blastExplosion",
+				"status": "blasted",
+				"statusDuration": 60,
+				"weaveScale": 5,
+				"weaveMag": 1,
+				"keepVelocity": false
+			}
+		},
+		{
+			"name": "alienscepter-weapon",
+			"top": true,
+			"mirror": false,
+			"rotate": true,
+			"reload": 120,
+			"x": 0,
+			"y": -8,
+			"shake": 6,
+			//"shots": 1,
+			"shoot": {
+				"firstShotDelay": 0,
+				"shots": 1,
+				"shotDelay": 0
+			},
+			"shootSound": "laser",
+			"ejectEffect": "none",
+			"ignoreRotation": true,
+			"bullet": {
+				"type": "LaserBulletType",
+				"colors": [ "fa20ff55", "faffbbaa", "ffa6f6", "ffffff" ],
+				"pierce": true,
+				"hitSize": 25,
+				"width": 25,
+				"length": 200,
+				"damage": 80,
+				"recoil": 0.0, //0.18,
+				"hitEffect": "hitLancer",
+				"lifetime": 26,
+				"collidesAir": true,
+				"lightningSpacing": 70,
+				"lightningDelay": 1.1,
+				"lightningLengthRand": 9,
+				"lightningColor": "ffa6f6",
+				"lightningAngleRand": 270,
+				"lightningDamage": 20
+			}
+		}
+	],
+	"research": {
+		"parent": "alienghostshipb",
+		"requirements": [
+			{
+				"item": "alientech",
+				"amount": 8000
+			}
+		]
+	}
+}

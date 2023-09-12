@@ -1,0 +1,15 @@
+type: BufferedItemBridge
+name: Titanium Bridge Conveyor
+description: The titanium bridge has better capabilities over the basic bridge.
+
+health: 80
+range: 6
+speed: 55
+bufferCapacity: 12
+
+requirements: [
+  titanium/2
+]
+
+category: distribution
+research: titanium-conveyor

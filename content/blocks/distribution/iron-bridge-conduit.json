@@ -1,0 +1,16 @@
+{
+	"type": "LiquidBridge",
+	"name": "Iron Bridge Conduit",
+	"description": "Need liquid over a little longer distances a little faster? Iron bridge!",
+	"health": 250,
+	"liquidCapacity": 30,
+	"liquidPressure": 1.225,
+	"range": 6,
+	"hasPower": false,
+	"category": "liquid",
+	"requirements": [
+		"iron/4",
+		"metaglass/8"
+	],
+	"research": "iron-conduit"
+}

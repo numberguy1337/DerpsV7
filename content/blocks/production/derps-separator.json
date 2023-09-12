@@ -1,0 +1,53 @@
+{
+  "type": "Separator",
+  "name": "Derp's Disassembler",
+  "description": "By compressing and breaking with liquid, we shall extract and create more resources!",
+  "size": 2,
+  "hasPower": true,
+  "hasItems": true,
+  "craftTime": 35,
+  "health": 200,
+  "solid": true,
+  "itemCapacity": 20,
+  //"outputsLiquid": false,
+  "consumes": {
+    "power": 3.0,
+    "items": {
+      "items": [
+        {
+          "item": "scrap",
+          "amount": 5
+        }
+      ]
+    },
+    "liquid": {
+      "liquid": "slag",
+      "amount": 0.12
+    }
+  },
+  "requirements": [
+    {
+      "item": "thorium",
+      "amount": 600
+    },
+    {
+      "item": "titanium",
+      "amount": 300
+    }
+  ],
+  "results": [
+    //"scrap/1",
+    "copper/5",
+    "lead/5",
+    "titanium/4",
+    "thorium/3",
+    //"surge-alloy/1",
+    //"phase-fabric/1",
+    "graphite/2",
+    "silicon/2",
+    "metaglass/2"
+    //"plastanium/5"
+  ],
+  "category": "crafting",
+  "research": "separator"
+}

@@ -1,0 +1,10 @@
+name: Lead Wall
+description: A large wall made of lead. Not particularly useful, just something to use instead of copper.
+type: Wall
+health: 370
+size: 1
+requirements: [
+  lead/6
+]
+category: defense
+research: copper-wall

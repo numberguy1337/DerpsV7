@@ -1,0 +1,60 @@
+name: Biological Lich
+description: "This thing. . This Lich, is it organic, robotic, or both?"
+buildPower: 5.0
+
+health: 9000
+mass: 22
+hitsize: 40
+speed: 0.025
+maxVelocity: 0.71
+drag: 0.05
+range: 110
+shootCone: 40
+flying: true
+rotateWeapon: true
+engineOffset: 21
+engineSize: 6.0
+rotatespeed: 0.02
+attackLength: 110
+baseRotateSpeed: 0.03
+
+weapon: {
+  name: lich-missiles
+  length: 5
+  reload: 150
+  width: 24
+  shots: 16
+  shootCone: 100
+  shotDelay: 1.5
+  inaccuracy: 16
+  alternate: true
+  recoil: 7
+  ejectEffect: none
+  velocityRnd: 0.3
+  spacing: 1.0
+  shootSound: artillery
+  bullet: artilleryExplosive
+  bulletSprite: shell
+  trailEffect: artilleryTrail
+    bullet: {
+            damage: 0
+            speed: 1.75
+            bulletWidth: 8
+            bulletHeight: 8
+            bulletShrink: 0
+            drag: -0.004
+            homingRange: 200
+            keepVelocity: false
+            splashDamageRadius: 50
+            splashdamage: 50
+            lifetime: 100
+            trailColor: 018af2
+            hitEffect: blastExplosion
+            despawnEffect: blastExplosion
+            weaveScale: 6
+            weaveMag: 2
+            knockback: 0.08
+            frontColor: dd551e
+            backColor: 30aebb
+    }
+}

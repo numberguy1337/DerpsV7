@@ -1,0 +1,26 @@
+type: GenericCrafter
+name: Lead Forge
+description: Combines Lead to produce Titanium.
+size: 2
+hasPower: true
+hasItems: true
+craftTime: 40
+updateEffect: smeltsmoke
+itemCapacity: 10
+consumes: {
+  power: 0.35
+  items: {
+    items: [
+      lead/4
+    ]
+  }
+}
+requirements: [
+    lead/600
+]
+category: crafting
+research: copper-forge
+ambientSound: respawning
+ambientSoundVolume: 0.4
+"buildVisibility": "campaignOnly"
+outputItem: titanium/2

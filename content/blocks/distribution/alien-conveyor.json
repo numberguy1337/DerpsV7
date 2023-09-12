@@ -1,0 +1,14 @@
+{
+	"type": "Conveyor",
+	"name": "Weird Conveyor",
+	"description": "The alienated conveyor is alot stronger and faster than most conveyors would turn out to be.( Displayed speed is probably wrong )",
+	"category": "distribution",
+	"health": 300,
+	"speed": 0.175,
+	"displayedSpeed": 30,
+	"itemCapacity": 6,
+	"requirements": [
+		"alientech/1"
+	],
+	"research": "alientech-forge"
+}

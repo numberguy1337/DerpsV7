@@ -1,0 +1,30 @@
+type: GenericCrafter
+name: Alien Tech Forge Press
+description: "Compressing the combination of the resources, you forge the tech more proficiently "
+size: 3
+craftTime: 75
+updateEffect: smeltsmoke
+itemCapacity: 40
+consumes: {
+    power: 6
+     items: {
+         items: [
+            plastanium/20
+            surge-alloy/20
+            thorium/10
+    ]
+  }
+}
+requirements: [
+    plastanium/300
+    surge-alloy/300
+    titanium/800
+    thorium/800
+    alientech/60
+]
+category: crafting
+research: alientech-forge
+ambientSound: respawning
+ambientSoundVolume: 0.4
+
+outputItem: alientech/5

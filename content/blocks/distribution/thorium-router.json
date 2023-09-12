@@ -1,0 +1,14 @@
+{
+	"localizedName": "Thorium Router",
+	"type": "Router",
+	"description": "Superb faster",
+	"size": 1,
+	"speed": 2,
+	"health": 80,
+	"buildCostMultiplier": 1.0,
+	"category": "distribution",
+	"research": "titanium-router",
+	"requirements": [
+		{ "item": "thorium", "amount": 1 }
+	]
+}

@@ -1,0 +1,120 @@
+{
+  "type": "ItemTurret",
+  "name": "Iron Salvo",
+  "description": "The Iron Salvo, an enhanced version made from a more durable material.",
+  "health": 1200,
+  "size": 2,
+  "reload": 40,
+  "range": 240,
+  "inaccuracy": 2,
+  "maxAmmo": 24,
+  "shootSound": "shootBig",
+  "rotateSpeed": 7,
+  //"restitution": 0.03,
+  "ammoEjectBack": 3,
+  //"cooldown": 0.03,
+  "recoil": 3,
+  //"shootShake": 1.1,
+  //"spread": 0,
+  "shoot": {
+    "type": "ShootAlternate",
+    "shots": 4,
+    "spread": 6
+  },
+  "ammoUseEffect": "casing2",
+
+  "ammoTypes": {
+    "copper": {
+      "damage": 45,
+      "speed": 7,
+      "hitSize": 4,
+      "width": 11,
+      "height": 14,
+      "lifetime": 60,
+      "shootEffect": "shootBig",
+      "smokeEffect": "shootBigSmoke",
+      "ammoMultiplier": 2
+    },
+    "graphite": {
+      "damage": 63,
+      "speed": 7,
+      "hitSize": 4,
+      "width": 15,
+      "height": 18,
+      "knockback": 0.75,
+      "reloadMultiplier": 0.8,
+      "shootEffect": "shootBig",
+      "smokeEffect": "shootBigSmoke",
+      "ammoMultiplier": 2,
+      "lifetime": 60
+    },
+    "pyratite": {
+      "damage": 81,
+      "speed": 7,
+      "hitSize": 4,
+      "width": 15,
+      "height": 18,
+      "knockback": 0.85,
+      "lifetime": 60,
+      "shootEffect": "shootBig",
+      "smokeEffect": "shootBigSmoke",
+      "ammoMultiplier": 4,
+      "status": "burning",
+      "makeFire": true
+    },
+    "blast-compound": {
+      "damage": 50,
+      "speed": 7,
+      "hitSize": 4,
+      "width": 15,
+      "height": 18,
+      "knockback": 1,
+      "lifetime": 60,
+      "shootEffect": "shootBig",
+      "smokeEffect": "shootBigSmoke",
+      "ammoMultiplier": 2,
+      "status": "burning",
+      "makeFire": false,
+      "splashDamage": 60,
+      "splashDamageRadius": 40
+    },
+    "silicon": {
+      "damage": 46,
+      "speed": 7,
+      "hitSize": 4,
+      "width": 15,
+      "height": 18,
+      "reloadMultiplier": 1.5,
+      "homingPower": 0.25,
+      "homingRange": 30,
+      "shootEffect": "shootBig",
+      "smokeEffect": "shootBigSmoke",
+      "ammoMultiplier": 4,
+      "knockback": 0.5,
+      "lifetime": 60
+    },
+    "iron": {
+      "damage": 56,
+      "speed": 4,
+      "hitSize": 4,
+      "width": 15,
+      "height": 18,
+      "knockback": 0.75,
+      "reloadMultiplier": 1.15,
+      "shootEffect": "shootBig",
+      "smokeEffect": "shootBigSmoke",
+      "ammoMultiplier": 4,
+      "lifetime": 60,
+      "pierceCap": 3,
+      "pierceBuilding": true
+    }
+  },
+
+  "requirements": [
+    "iron/300",
+    "titanium/200"
+  ],
+
+  "category": "turret",
+  "research": "iron-duo"
+}

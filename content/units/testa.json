@@ -1,0 +1,148 @@
+{
+  "type": "mech",
+  "name": "Test-Mech A",
+  "description": "Slow unit that spawns daggers and maces, heavy attacking unit and does some other abilities.",
+  "health": 220000,
+  "armor": 100,
+  "hitSize": 54,
+  "speed": 0.2,
+  "buildSpeed": 5.0,
+  "canBoost": true,
+  "canDrown": false,
+  "drawShields": false,
+  "engineOffset": 16,
+  "engineSize": 12,
+  "rotateSpeed": 0.90,
+  "weapons": [
+    {
+      "name": "large-bullet-mount",
+      "x": 33.5,
+      "y": 0,
+      "reload": 60,
+      "recoil": 6,
+      "shoot": {
+        "firstShotDelay": 0,
+        "shots": 3,
+        "shotDelay": 3
+      },
+      "shootY": 28,
+      "shootSound": "missile",
+      "top": false,
+      "bullet": {
+        "damage": 0,
+        "speed": 9,
+        "lifetime": 35,
+        "hitSize": 15,
+        "height": 40,
+        "width": 18,
+        "frontColor": "ffffff",
+        "backColor": "f89fa9",
+        "pierceCap": 10,
+        "pierce": true,
+        "pierceBuilding": true,
+        "collidesTeam": true,
+        "healPercent": 12
+      }
+    },
+    {
+      "name": "mortar-equip",
+      "x": 22.5,
+      "y": -22,
+      "rotate": true,
+      "rotateSpeed": 2.0,
+      "reload": 150,
+      "recoil": 3,
+      "shootY": 6,
+      "shootSound": "artillery",
+      "bullet": {
+        "type": "ArtilleryBulletType",
+        "splashDamage": 90,
+        "splashDamageRadius": 45,
+        "speed": 4,
+        "lifetime": 65,
+        "collides": true,
+        "collidesTiles": true,
+        //"collidesTeam": true,
+        //"healPercent": 3,
+        "hitSize": 8,
+        "width": 18,
+        "height": 18,
+        "frontColor": "ffffff",
+        "backColor": "f89fa9",
+        "smokeEffect": "hitLaser",
+        "hitEffect": "hitLaser",
+        "despawnEffect": "none"
+      }
+    },
+    {
+      "name": "solar-equip",
+      "x": 16,
+      "y": 0,
+      "rotate": true,
+      "recoil": 2,
+      "reload": 5,
+      "shootSound": "lasershoot",
+      "bullet": {
+        "type": "MissileBulletType",
+        "damage": 30,
+        "speed": 5,
+        "lifetime": 30,
+        "collidesTeam": true,
+        //"healPercent": 8,
+        "splashDamage": 25,
+        "splashDamageRadius": 15,
+        "despawnEffect": "hitLaser",
+        "smokeEffect": "hitLaser",
+        "hitEffect": "none",
+        "frontColor": "ffffff",
+        "backColor": "98ffa9",
+        "trailColor": "98ffa9",
+        "weaveMag": 4,
+        "weaveScale": 8
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "type": "UnitSpawnAbility",
+      "spawnX": 6,
+      "spawnY": -22,
+      "unit": "dagger",
+      "spawnTime": 890
+    },
+    {
+      "type": "UnitSpawnAbility",
+      "spawnX": -6,
+      "spawnY": -22,
+      "unit": "dagger",
+      "spawnTime": 890
+    },
+    {
+      "type": "UnitSpawnAbility",
+      "spawnX": 6,
+      "spawnY": -11,
+      "unit": "mace",
+      "spawnTime": 1300
+    },
+    {
+      "type": "UnitSpawnAbility",
+      "spawnX": -6,
+      "spawnY": -11,
+      "unit": "mace",
+      "spawnTime": 1300
+    },
+    {
+      "type": "RepairFieldAbility",
+      "range": 70,
+      "amount": 400,
+      "reload": 200
+    },
+    {
+      "type": "ForceFieldAbility",
+      "radius": 80,
+      "regen": 30,
+      "max": 15000,
+      "cooldown": 360
+    }
+  ]
+}
