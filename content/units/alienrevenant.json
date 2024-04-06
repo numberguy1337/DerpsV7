@@ -43,6 +43,7 @@
 				"splashDamageRadius": 40,
 				"splashDamage": 40,
 				"homingRange": 90,
+				"homingPower": 0.02,
 				"shrinkY": 0,
 				"drag": -0.003,
 				"lifetime": 80,

@@ -2,9 +2,9 @@
   "type": "Reconstructor",
   "name": "Multiplicative Remodder",
   "description": "Upgrades the modded units to T3 - WorkInProgress",
-  "health": 600,
+  "health": 1000,
   "size": 5,
-  "itemCapacity": 300,
+  //"itemCapacity": 300,
   "constructTime": 700,
 
   "requirements": [
@@ -19,7 +19,8 @@
     [ "drone-lead", "drone-titanium" ],
     //    [ "thicctitan", "minigunmech" ],
     //    [ "derpmech", "predmech" ],
-    [ "copper-poly", "copper-mega" ]
+    [ "copper-poly", "copper-mega" ],
+    [ "alienrevenant", "alienTier3" ]
 
   ],
 

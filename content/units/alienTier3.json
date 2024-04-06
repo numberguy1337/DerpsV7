@@ -1,0 +1,165 @@
+{
+	"type": "flying",
+	"name": "Sentinel Prime",
+	"description": "You thought the Revenant was tough, this one feels more of an extremist.",
+	"flying": true,
+	"speed": 1.12,
+	"accel": 0.06,
+	"drag": 0.06,
+	"baseRotateSpeed": 0.20,
+	"health": 3000,
+	"armor": 20,
+	"engineOffset": 22.5,
+	"engineSize": 6,
+	"lowAltitude": false,
+	//"forceMultiTarget": true,
+	"range": 350,
+	"commandLimit": 5,
+	"hitSize": 56,
+	//"targetFlags": ["launchPad","storage","battery"],
+	"weapons": [
+		{
+			"name": "alien-missiles-equip",
+			"top": true,
+			"alternate": true,
+			"rotate": true,
+			"reload": 45,
+			"x": 18,
+			"y": 2,
+			"shake": 2,
+			"shoot": {
+				"firstShotDelay": 0,
+				"shots": 2,
+				"shotDelay": 15
+			},
+			"ejectEffect": "none",
+			"inaccuracy": 8,
+			"ignoreRotation": true,
+			"bullet": {
+				"type": "MissileBulletType", //zenith as reference
+				"shootEffect": "shootBig",
+				"speed": 4.125,
+				"damage": 40,
+				"splashDamageRadius": 40,
+				"splashDamage": 75,
+				"homingRange": 150,
+				"homingPower": 0.08,
+				"shrinkY": 0,
+				"drag": -0.003,
+				"lifetime": 90,
+				"recoil": 0.0,
+				"width": 14,
+				"height": 14,
+				"hitEffect": "blastExplosion",
+				"status": "blasted",
+				"statusDuration": 60,
+				"weaveScale": 6,
+				"weaveMag": 2,
+				"keepVelocity": false
+			}
+		},
+		{
+			"name": "spiroct-weapon",
+			"top": true,
+			"alternate": true,
+			"rotate": true,
+			"reload": 45,
+			"x": 14,
+			"y": 15,
+			"shake": 2,
+			"shoot": {
+				"firstShotDelay": 0,
+				"shots": 2,
+				"shotDelay": 15
+			},
+			"ejectEffect": "none",
+			"inaccuracy": 8,
+			"ignoreRotation": true,
+			"bullet": {
+				"type": "FlakBulletType", // eclipse frag reference
+				"shootEffect": "shootSmall",
+				// "hitColor": "bf92f9",
+				"speed": 4.125,
+				"damage": 15,
+				"splashDamageRadius": 25,
+				"splashDamage": 35,
+				"shrinkY": 0,
+				"drag": -0.003,
+				"lifetime": 35,
+				"recoil": 0.0,
+				"width": 1,
+				"height": 8,
+				"hitEffect": "blastExplosion",
+				"status": "blasted",
+				"statusDuration": 60,
+				// "weaveScale": 6,
+				// "weaveMag": 2,
+				"keepVelocity": false,
+				"knockback": 0.5,
+				"collidesGround": true
+			}
+		},
+		{
+			"name": "reign-scourge-weapon",
+			"top": true,
+			"mirror": false,
+			"rotate": true,
+			"reload": 240,
+			"x": 0,
+			"y": -8,
+			"shake": 7,
+			//"shots": 1,
+			"shoot": {
+				"firstShotDelay": 0,
+				"shots": 1,
+				"shotDelay": 0
+			},
+			"shootSound": "laser",
+			"ejectEffect": "none",
+			"ignoreRotation": true,
+			"bullet": {
+				"type": "LaserBulletType",
+				"colors": [ "fa20ff55", "faffbbaa", "ffa6f6", "ffffff" ],
+				"pierce": true,
+				"hitSize": 60,
+				"width": 60,
+				"length": 300,
+				"damage": 180,
+				"recoil": 0.0, //0.18,
+				"hitEffect": "hitLancer",
+				"lifetime": 24,
+				"collidesAir": true,
+				"lightningSpacing": 60,
+				"lightningDelay": 2.2,
+				"lightningLengthRand": 10,
+				"lightningColor": "ffa6f6",
+				"lightningAngleRand": 270,
+				"lightningDamage": 35
+			}
+		}
+	],
+	"abilities": [
+		{
+			"type": "RepairFieldAbility",
+			"range": 10.25,
+			"amount": 100,
+			"reload": 120
+		},
+		{
+			"type": "ShieldRegenFieldAbility",
+			"range": 10.25,
+			"amount": 500,
+			"max": 1500,
+			"reload": 180
+		}
+	],
+	"research": {
+		"parent": "alienrevenant",
+		"requirements": [
+			{
+				"item": "alientech",
+				"amount": 30000
+			}
+		]
+	}
+}
